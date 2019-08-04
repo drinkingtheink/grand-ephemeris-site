@@ -33,6 +33,10 @@ $side-panel-width: 20vw;
 
   .position-display {
     color: white;
+
+    span {
+      color: $ge-yellow;
+    }
   }
 
   .attribution {
@@ -58,13 +62,20 @@ $side-panel-width: 20vw;
     border-top: 2px solid $ge-yellow;
 
     h3 {
-      margin: 0;
-      padding: 1em 0;
+      margin: .5em 0;
+      padding: .5em 0;
+      font-size: 160%
+    }
+
+    h4 {
+      padding-bottom: .5em;
+      margin-bottom: 1em;
+      border-bottom: 1px solid rgba(white, .3);
     }
 
     .album-info {
       padding-bottom: 1em;
-      
+
       span {
 
       }
@@ -72,6 +83,10 @@ $side-panel-width: 20vw;
 
     .lyrics {
       min-height: 20em;
+    }
+
+    img {
+      border: 5px solid white;
     }
   }
 }
