@@ -91,3 +91,13 @@ $side-panel-width: 20vw;
     }
   }
 }
+
+.instrument-panel {
+  text-align: left;
+  padding: 1em;
+  color: white;
+
+  strong {
+    color: $ge-yellow;
+  }
+}

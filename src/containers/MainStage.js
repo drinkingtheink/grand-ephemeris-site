@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GELogo from '../components/GELogo';
+import InstrumentPanel from '../components/InstrumentPanel';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import geImg from '../img/ge-group.jpg';
 
@@ -24,6 +25,9 @@ class MainStage extends Component {
         <section className="left-panel attribution">
           <GELogo />
            <h3 className="position-display"><span>λo:</span> { state.x } | <span>ϕo:</span> { state.y }</h3>
+
+           <InstrumentPanel />
+
         </section>
 
         <section className="main-panel">
@@ -86,12 +90,12 @@ class MainStage extends Component {
 
           <article className="content-panel covers">
             <h3>Misc Covers</h3>
-            <iframe title="ge-covers" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/821052595&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe title="ge-covers" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/821052595&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </article>
 
           <article className="content-panel covers">
             <h3>About</h3>
-             <img src={geImg} />
+             <img src={geImg} alt="The first incantation of Grand Ephemeris" />
              <p>Grand Ephemeris is led by brothers Jason and Joel Harrison who ply their earthly trade in the fair city of Austin, TX. They are accompanied by many talented friends during this project. Please see albums notes for who helped where.</p>
           </article>
         </section>
