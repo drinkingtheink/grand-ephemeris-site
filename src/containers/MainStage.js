@@ -57,13 +57,20 @@ class MainStage extends Component {
 
              <section className="musicians">
               <h4>Production:</h4>
-              <p><strong>Recorded at:</strong> Box Turtle Studios - Austin, TX</p>
-              <p><strong>Mastered by:</strong> <a href="http://dannystapleton.com/" target="_blank" rel="noopener noreferrer">Danny Stapleton</a></p>
+
+              <article className="gallery">
+                <p><strong>Recorded at:</strong> Box Turtle Studios - Austin, TX</p>
+                <p><strong>Mastered by:</strong> <a href="http://dannystapleton.com/" target="_blank" rel="noopener noreferrer">Danny Stapleton</a></p>
+              </article>
+
               <h4>Musicians:</h4>
-              <p><strong>Jason M Harrison:</strong> vocals/guitar</p>
-              <p><strong>Dalton Chamblee:</strong> bass/drums/keys</p>
-              <p><strong>Kyle Williams:</strong> keys</p>
-              <p><strong>Sam Berniard:</strong> guitar</p>
+
+              <article className="gallery">
+                <p><strong>Jason M Harrison:</strong> vocals/guitar</p>
+                <p><strong>Dalton Chamblee:</strong> bass/drums/keys</p>
+                <p><strong>Kyle Williams:</strong> keys</p>
+                <p><strong>Sam Berniard:</strong> guitar</p>
+              </article>
             </section>       
           </article>
 
@@ -81,15 +88,22 @@ class MainStage extends Component {
 
             <section className="musicians">
               <h4>Production:</h4>
-              <p><strong>Recorded at:</strong> On the Altar Studios - Austin, TX</p>
-              <p><strong>Mastered by:</strong> Jeff Gudenrath - <a href="http://www.audiointegritymastering.com/" rel="noopener noreferrer" target="_blank">AudioIntegrity</a> - Austin, TX</p>
+              
+              <article className="gallery">
+                <p><strong>Recorded at:</strong> On the Altar Studios - Austin, TX</p>
+                <p><strong>Mastered by:</strong> Jeff Gudenrath - <a href="http://www.audiointegritymastering.com/" rel="noopener noreferrer" target="_blank">AudioIntegrity</a> - Austin, TX</p>
+              </article>
+              
               <h4>Musicians:</h4>
-              <p><strong>Jason M Harrison:</strong> vocals/guitar/percussion</p>
-              <p><strong>Joel Harrison:</strong> vocals/bass</p>
-              <p><strong>Chad Gowan:</strong> drums</p>
-              <p><strong>Nathan Campbell:</strong> mandolin/slide guitar</p>
-              <p><strong>Aaron Campbell:</strong> banjo/mandolin</p>
-              <p><strong>Tim Aylsworth:</strong> guitar</p>
+              
+              <article className="gallery">
+                <p><strong>Jason M Harrison:</strong> vocals/guitar/percussion</p>
+                <p><strong>Joel Harrison:</strong> vocals/bass</p>
+                <p><strong>Chad Gowan:</strong> drums</p>
+                <p><strong>Nathan Campbell:</strong> mandolin/slide guitar</p>
+                <p><strong>Aaron Campbell:</strong> banjo/mandolin</p>
+                <p><strong>Tim Aylsworth:</strong> guitar</p>
+              </article>
             </section>
           </article>
 
