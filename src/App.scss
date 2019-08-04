@@ -15,6 +15,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+
+$side-panel-width: 20vw;
+
 .grand-ephemeris-home {
   height: 100vh;
   width: 100vw;
@@ -25,12 +35,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 
   .attribution {
-    width: 20vw;
+    width: $side-panel-width;
     padding-right: 2em;
     border-right: 5px solid rgba(black, .6);
   }
 
   .main-panel {
     padding-left: 2em;
+    width: 100 - $side-panel-width;
+    text-align: left;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  .album {
+
+    .lyrics {
+      min-height: 20em;
+    }
   }
 }
