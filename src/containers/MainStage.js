@@ -21,10 +21,15 @@ class MainStage extends Component {
   render() {
     let state = this.state || {};
     return (
-      <main className="grand-ephemeris-home" onMouseMove={this.handleMouseMove}>
+      <main className="grand-ephemeris-home" 
+        onMouseMove={this.handleMouseMove}
+        onScroll={this.handleScroll}
+       >
         <section className="left-panel attribution">
           <GELogo />
-           <h3 className="position-display"><span>λo:</span> { state.x } | <span>ϕo:</span> { state.y }</h3>
+           <h3 className="position-display">
+             <span>λo:</span> { state.x }° | <span>ϕo:</span> { state.y }°
+           </h3>
 
            <InstrumentPanel />
 
