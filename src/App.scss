@@ -50,11 +50,25 @@ $side-panel-width: 20vw;
     scroll-behavior: smooth;
   }
 
-  .album {
+  .content-panel {
     max-width: 80%;
     background-color: rgba(black, .4);
     padding: 1em;
     margin: 2em 0;
+    border-top: 2px solid $ge-yellow;
+
+    h3 {
+      margin: 0;
+      padding: 1em 0;
+    }
+
+    .album-info {
+      padding-bottom: 1em;
+      
+      span {
+
+      }
+    }
 
     .lyrics {
       min-height: 20em;

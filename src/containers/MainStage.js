@@ -32,7 +32,7 @@ class MainStage extends Component {
             <AnchorLink href='#votive-viscera'>Votive Viscera</AnchorLink>
           </div>
 
-          <article className="album atlassian-breaks" id="atlassian-breaks"> 
+          <article className="content-panel atlassian-breaks" id="atlassian-breaks"> 
             <h3>Atlassian Breaks</h3>
             
             <section className="album-info">
@@ -44,9 +44,20 @@ class MainStage extends Component {
             <section className="lyrics">
               <h4>Lyrics:</h4>
             </section>        
+
+             <section className="musicians">
+              <h4>Production:</h4>
+              <p><strong>Recorded at:</strong> Box Turtle Studios - Austin, TX</p>
+              <p><strong>Mastered by:</strong> <a href="http://dannystapleton.com/" target="_blank" rel="noopener noreferrer">Danny Stapleton</a></p>
+              <h4>Musicians:</h4>
+              <p><strong>Jason M Harrison:</strong> vocals/guitar</p>
+              <p><strong>Dalton Chamblee:</strong> bass/drums/keys</p>
+              <p><strong>Kyle Williams:</strong> keys</p>
+              <p><strong>Sam Berniard:</strong> guitar</p>
+            </section>       
           </article>
 
-          <article className="album votive-viscera" id="votive-viscera">
+          <article className="content-panel votive-viscera" id="votive-viscera">
             <h3>Votive Viscera</h3>
             
             <section className="album-info">
@@ -57,11 +68,24 @@ class MainStage extends Component {
             <section className="lyrics">
               <h4>Lyrics:</h4>
             </section>    
+
+            <section className="musicians">
+              <h4>Production:</h4>
+              <p><strong>Recorded at:</strong> On the Altar Studios - Austin, TX</p>
+              <p><strong>Mastered by:</strong> Jeff Gudenrath - <a href="http://www.audiointegritymastering.com/" rel="noopener noreferrer" target="_blank">AudioIntegrity</a> - Austin, TX</p>
+              <h4>Musicians:</h4>
+              <p><strong>Jason M Harrison:</strong> vocals/guitar/percussion</p>
+              <p><strong>Joel Harrison:</strong> vocals/bass/vocals</p>
+              <p><strong>Chad Gowan:</strong> drums</p>
+              <p><strong>Nathan Campbell:</strong> mandolin/slide guitar</p>
+              <p><strong>Aaron Campbell:</strong> banjo/mandolin</p>
+              <p><strong>Tim Aylsworth:</strong> guitar</p>
+            </section>
           </article>
 
-          <article className="album covers">
+          <article className="content-panel covers">
             <h3>Misc Covers</h3>
-            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/821052595&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe title="ge-covers" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/821052595&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </article>
         </section>
       </main>
