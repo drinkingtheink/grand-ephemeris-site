@@ -10,6 +10,13 @@
     fill: $ge-yellow;
   }
 
+  #grand-text,
+  #ephemeris-text {
+    path {
+      fill: $ge-green !important;
+    }
+  }
+
   #armillary {
     position: relative;
   }
