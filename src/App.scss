@@ -3,6 +3,8 @@
 @import './styles/_instruments-widget.scss';
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
+$app-font: 'Permanent Marker', cursive;
+
 $very-small-screen: 700px;
 $small-screen: 1000px;
 
@@ -76,7 +78,7 @@ $side-panel-width: 20vw;
     .ge-desc-quote {
     	color: $ge-green;
     	padding: 0 2em;
-    	font-family: 'Permanent Marker', cursive;
+    	font-family: $app-font;
     	line-height: 1;
     }
   }
@@ -111,7 +113,7 @@ $side-panel-width: 20vw;
       padding: 0;
       font-size: 250%;
       color: $ge-green;
-      font-family: 'Permanent Marker', cursive;
+      font-family: $app-font;
     }
 
     h4 {
