@@ -100,6 +100,11 @@ class MainStage extends Component {
               </article>
             </section>  
 
+            <section className="videos">
+              <h4>Video:</h4>
+              <iframe src="https://player.vimeo.com/video/111038257" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </section>
+
             <section className="lyrics">
               <h4>Lyrics:</h4>
             </section>    
