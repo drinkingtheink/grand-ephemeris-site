@@ -1,5 +1,6 @@
 @import './styles/_palette.scss';
 @import './styles/_logo-svg.scss';
+@import './styles/_instruments-widget.scss';
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
 html,
@@ -109,6 +110,8 @@ $side-panel-width: 20vw;
   text-align: left;
   padding: 1em 1.5em;
   color: white;
+  max-width: 250px;
+  margin: 0 auto;
 
   .panel-field {
     padding: .5rem 0;

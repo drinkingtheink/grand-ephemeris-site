@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GELogo from '../components/GELogo';
 import InstrumentPanel from '../components/InstrumentPanel';
+import InstrumentWidgets from '../components/InstrumentWidgets';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import geImg from '../img/ge-group.jpg';
 
@@ -34,7 +35,7 @@ class MainStage extends Component {
            <p className="ge-desc-quote">Psychedelia/Americana emanating from Austin, TX</p>
 
            <InstrumentPanel />
-
+           <InstrumentWidgets />
         </section>
 
         <section className="main-panel">
@@ -102,7 +103,7 @@ class MainStage extends Component {
 
             <section className="videos">
               <h4>Video:</h4>
-              <iframe src="https://player.vimeo.com/video/111038257" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe title="Less Superstitious from Votive Viscera" src="https://player.vimeo.com/video/111038257" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </section>
 
             <section className="lyrics">

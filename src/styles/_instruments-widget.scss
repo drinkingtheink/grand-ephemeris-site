@@ -1,0 +1,116 @@
+@keyframes switchFly1 {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(140px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes switchFly2 {
+  0% {
+    transform: translateY(-5px);
+  }
+  30% {
+    transform: translateY(160px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes switchFly3 {
+  0% {
+    transform: translateY(-5px);
+  }
+  30% {
+    transform: translateY(175px);
+  }
+  70% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(175px);
+  }
+}
+
+@keyframes blipBop {
+  0% {
+    transform: translateX(-5px);
+  }
+  30% {
+    transform: translateY(127px);
+  }
+  70% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateY(157px);
+  }
+}
+
+
+@keyframes outThenIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: .5;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ge-instrument-widgets {
+	padding: 1em 1.5em 0 1.5em;
+	max-width: 200px;
+
+	.widget {
+		rect,
+		path,
+		circle {
+			fill: $ge-yellow;
+		}
+	}
+
+	#vert-meter path {
+		fill: $ge-green;
+	}
+
+	.text-panel rect {
+		fill: $ge-green !important;
+	}
+
+	.text-panel-text {
+		fill: $ge-yellow !important;
+		animation: outThenIn 5s infinite;
+	}
+
+	.switch {
+		fill: $ge-green !important;
+
+		&.left-switch {
+			animation: switchFly1 3s infinite;
+		}
+
+		&.center-switch {
+			animation: switchFly2 10s infinite;
+		}
+
+		&.right-switch {
+			animation: switchFly3 20s infinite;
+		}
+	}
+
+	.radar-blip {
+		fill: white !important;
+		animation: blipBop 10s infinite;
+	}
+}
