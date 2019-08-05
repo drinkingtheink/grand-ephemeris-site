@@ -1,6 +1,18 @@
 @keyframes rotation {
-    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+  from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes opacityFlicker {
+  0% {
+    opacity: .7;
+  }
+  30% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #ge-logo-mark {
@@ -39,17 +51,21 @@
 
   #inner-arm-one {
     fill: $ge-green;
+    animation: opacityFlicker 4s infinite;
 
     &:hover {
       fill: $ge-yellow;
+      opacity: 1;
     }
   }
 
   #inner-arm-two {
     fill: white;
+    animation: opacityFlicker 2s 10s infinite;
 
     &:hover {
       fill: $ge-green;
+      opacity: 1;
     }
   }
 }
