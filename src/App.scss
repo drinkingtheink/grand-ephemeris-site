@@ -193,4 +193,8 @@ $side-panel-width: 20vw;
     border-color: $ge-yellow;
     background-color: rgba($ge-green, .3);
   }
+
+  @media screen and (max-width: $very-small-screen) {
+  	display: block;
+  }
 }
