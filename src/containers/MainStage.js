@@ -73,6 +73,7 @@ class MainStage extends Component {
                 <p><strong>Dalton Chamblee:</strong> bass/drums/keys</p>
                 <p><strong>Kyle Williams:</strong> keys</p>
                 <p><strong>Sam Berniard:</strong> guitar</p>
+                <p><strong>Joel Harrison:</strong> vocals</p>
               </article>
             </section>       
           </article>
