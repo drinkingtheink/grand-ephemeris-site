@@ -31,6 +31,8 @@ class MainStage extends Component {
              <span>λo:</span> { state.x }° | <span>ϕo:</span> { state.y }°
            </h3>
 
+           <p className="ge-desc-quote">Psychedelia/Americana emanating from Austin, TX</p>
+
            <InstrumentPanel />
 
         </section>

@@ -49,6 +49,14 @@ $side-panel-width: 20vw;
     width: $side-panel-width;
     padding-right: 2em;
     background-color: rgba(black, .4);
+
+    .ge-desc-quote {
+    	color: $ge-green;
+    	padding: 0 2em;
+    	font-family: 'Permanent Marker', cursive;
+    	font-size: 150%;
+    	line-height: 1;
+    }
   }
 
   .main-panel {
@@ -60,7 +68,7 @@ $side-panel-width: 20vw;
   }
 
   .content-panel {
-    max-width: 80%;
+    max-width: 800px;
     background-color: rgba(black, .4);
     padding: 1em;
     margin: 2em 0;
