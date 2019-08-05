@@ -3,6 +3,9 @@
 @import './styles/_instruments-widget.scss';
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
+$very-small-screen: 700px;
+$small-screen: 992px;
+
 html,
 body {
   position: relative;
@@ -38,6 +41,10 @@ $side-panel-width: 20vw;
   width: 100vw;
   display: flex;
 
+  @media screen and (max-width: $small-screen) {
+  	display: block;
+  }
+
   .position-display {
     color: white;
 
@@ -50,6 +57,12 @@ $side-panel-width: 20vw;
     width: $side-panel-width;
     padding-right: 2em;
     background-color: rgba(black, .4);
+
+    @media screen and (max-width: $small-screen) {
+    	width: 100%;
+    	padding-bottom: 2em;
+    	border-bottom: 2px solid $ge-yellow;
+	}
 
     .ge-desc-quote {
     	color: $ge-green;
@@ -65,6 +78,10 @@ $side-panel-width: 20vw;
     text-align: left;
     height: 100vh;
     overflow-y: auto;
+
+    @media screen and (max-width: $small-screen) {
+    	width: 100%;
+	}
   }
 
   .content-panel {
@@ -73,6 +90,10 @@ $side-panel-width: 20vw;
     padding: 1em;
     margin: 2em 0;
     border-top: 2px solid $ge-yellow;
+
+    @media screen and (max-width: $small-screen) {
+    	max-width: 90%;
+	}
 
     h3 {
       margin: 0 0 .5em 0;
@@ -112,6 +133,10 @@ $side-panel-width: 20vw;
   color: white;
   max-width: 250px;
   margin: 0 auto;
+
+  @media screen and (max-width: $small-screen) {
+  	display: none;
+  }
 
   .panel-field {
     padding: .5rem 0;
