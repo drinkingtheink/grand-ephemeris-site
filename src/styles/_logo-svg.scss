@@ -14,18 +14,42 @@
   #ephemeris-text {
     path {
       fill: white;
+
+      &:hover {
+        fill: $ge-green;
+      }
     }
   }
 
   #armillary {
     position: relative;
+
+    &-left {
+      &:hover {
+        fill: $ge-green;
+      }
+    }
+
+    &-right {
+      &:hover {
+        fill: $ge-green;
+      }
+    }
   }
 
   #inner-arm-one {
     fill: $ge-green;
+
+    &:hover {
+      fill: $ge-yellow;
+    }
   }
 
   #inner-arm-two {
     fill: white;
+
+    &:hover {
+      fill: $ge-green;
+    }
   }
 }
