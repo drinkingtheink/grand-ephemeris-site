@@ -8,8 +8,8 @@ class MainStage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      x: null,
-      y: null
+      x: 1,
+      y: 1
     };
     this.handleMouseMove = this.handleMouseMove.bind(this);
   }
