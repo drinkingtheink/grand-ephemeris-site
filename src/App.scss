@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
 $very-small-screen: 700px;
-$small-screen: 992px;
+$small-screen: 1000px;
 
 html,
 body {
@@ -43,6 +43,15 @@ $side-panel-width: 20vw;
 
   @media screen and (max-width: $small-screen) {
   	display: block;
+
+  	iframe {
+  		width: 100%;
+  		overflow: hidden;
+  	}
+
+  	img {
+  		max-width: 100%;
+  	}
   }
 
   .position-display {
@@ -81,6 +90,8 @@ $side-panel-width: 20vw;
 
     @media screen and (max-width: $small-screen) {
     	width: 100%;
+    	padding: 0;
+    	height: auto;
 	}
   }
 
@@ -92,7 +103,7 @@ $side-panel-width: 20vw;
     border-top: 2px solid $ge-yellow;
 
     @media screen and (max-width: $small-screen) {
-    	max-width: 90%;
+    	max-width: 100%;
 	}
 
     h3 {
