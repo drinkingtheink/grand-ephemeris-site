@@ -55,7 +55,7 @@ class MainStage extends Component {
               <h4>Lyrics:</h4>
             </section>        
 
-             <section className="musicians">
+             <section className="credits">
               <h4>Production:</h4>
 
               <article className="gallery">
@@ -82,11 +82,27 @@ class MainStage extends Component {
             </section>
 
             <iframe title="Votive Viscera" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/45125373&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>            
+            
+            <section className="stream">
+              <h4>Stream:</h4>
+              
+              <article className="gallery">
+                <a href="https://open.spotify.com/album/6MST0N0G6JCLreMWWhL6Rc" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/votive-viscera" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://www.youtube.com/playlist?list=PLkwlX4LdnGNQTwQBvXWNh1I5L-_plTnIB" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/gb/album/votive-viscera/904517173" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://play.google.com/store/music/album?id=Bt7mxmuowerd6z4bp4ukiarvw6a&tid=song-Twf4szdzioobw5uxndcsqhiwf7e&hl=en" target="_blank" rel="noopener noreferrer">Google Play</a>
+                <a href="https://music.amazon.com/albums/B07QW54XBJ" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/votive-viscera-72405128/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+              </article>
+            </section>  
+
             <section className="lyrics">
               <h4>Lyrics:</h4>
             </section>    
 
-            <section className="musicians">
+            <section className="credits">
               <h4>Production:</h4>
               
               <article className="gallery">
