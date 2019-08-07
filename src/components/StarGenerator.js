@@ -26,20 +26,31 @@ class StarGenerator extends Component {
 	    return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
 
+	getRandomString(string_length){
+    let random_string = '';
+    let random_ascii;
+    for(let i = 0; i < string_length; i++) {
+        random_ascii = Math.floor((Math.random() * 25) + 97);
+        random_string += String.fromCharCode(random_ascii)
+    }
+    return random_string
+	}
+
 	setStarCount() {
-		let newNumber = this.getRandomInt(40, 75);
+		let newNumber = this.getRandomInt(100, 200);
 		let newStarField = [];
 		let app = this;
 
 		for (var i = 0; i < newNumber; i++) {
 		    let newStar = {
-		    	size: app.getRandomInt(5, 15),
+		    	size: app.getRandomInt(5, 10),
 		    	opacity: app.getRandomInt(3, 9),
 		    	right_pos: app.getRandomInt(1, 100),
 		    	left_pos: app.getRandomInt(1, 100),
 		    	top_pos: app.getRandomInt(1, 100),
 		    	color: app.getRandomColor(),
-		    	box_shadow: `0 0 ${app.getRandomInt(1, 15)}px 0 ${app.getRandomColor()}`
+		    	box_shadow: `0 0 ${app.getRandomInt(1, 15)}px 0 ${app.getRandomColor()}`,
+		    	key: app.getRandomString(9)
 		    }
 		    newStarField.push(newStar);
 	  	}
@@ -51,14 +62,14 @@ class StarGenerator extends Component {
 	    let app = this;
 	    setInterval(function(){
 	      app.setStarCount();
-	    }, 20000);
+	    }, 5000);
 	}
 
 	render() {
 		return (
 			<section className="star-generator">
 				{this.state.starField.map((item, index) => (
-			    	<Star key={`star-${index}`} star={item} />
+			    	<Star key={item.key} star={item} />
 			    ))}
 			</section>
 		)
