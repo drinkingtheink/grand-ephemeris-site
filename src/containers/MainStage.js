@@ -5,6 +5,7 @@ import InstrumentWidgets from '../components/InstrumentWidgets';
 import Accordion from '../components/Accordion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import geImg from '../img/ge-group.jpg';
+import lyrics from '../data/lyrics';
 
 class MainStage extends Component {
   constructor(props) {
@@ -58,10 +59,22 @@ class MainStage extends Component {
             <section className="lyrics">
               <h4>Lyrics:</h4>
 
-              <Accordion title="Atlassian Breaks" />
-              <Accordion title="Hands So Sleight" />
-              <Accordion title="Westport Hymn" />
-              <Accordion title="Men of the Cloth" />
+              <Accordion 
+                title="Atlassian Breaks"
+                content={lyrics.ab.ab}
+              />
+              <Accordion 
+                title="Hands So Sleight"
+                content={lyrics.ab.hss}
+              />
+              <Accordion 
+                title="Westport Hymn" 
+                content={lyrics.ab.wh}
+              />
+              <Accordion 
+                title="Men of the Cloth"
+                content={lyrics.ab.motc}
+              />
             </section>        
 
              <section className="credits">

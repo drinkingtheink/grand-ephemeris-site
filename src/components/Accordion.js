@@ -9,13 +9,18 @@ class Accordion extends Component {
 
 	handleClick() {
 		let openSetting = !this.state.open;
-		console.log(`OPENING THIS ACORDIONG`);
 		this.setState({ open: openSetting });
 	}
 
 	render() {
 		let props = this.props || {};
 		let state = this.state || {};
+		let contentRow;
+		if (props.content) {
+			contentRow = props.content.split('\n').map((item, i) => {
+			    return <p className="ge-accordion-content" key={i}>{item}</p>;
+			});	
+		} 
 
 		return (
 			<section className={`ge-accordion ${state.open ? 'open' : ''}`} onClick={this.handleClick}>
@@ -23,8 +28,8 @@ class Accordion extends Component {
 					<span className={`indicator ${state.open ? 'tilted' : ''}`}>&#8227;</span>
 					{ props.title }
 				</h2>
-				{this.state.open 
-					? <p className="ge-accordion-content">Info will go here...</p>
+				{state.open 
+					? contentRow
 					: ''
 				}
 			</section>
