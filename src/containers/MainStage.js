@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import GELogo from '../components/GELogo';
 import InstrumentPanel from '../components/InstrumentPanel';
 import InstrumentWidgets from '../components/InstrumentWidgets';
+import Accordion from '../components/Accordion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import geImg from '../img/ge-group.jpg';
 
@@ -56,6 +57,11 @@ class MainStage extends Component {
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
+
+              <Accordion title="Atlassian Breaks" />
+              <Accordion title="Hands So Sleight" />
+              <Accordion title="Westport Hymn" />
+              <Accordion title="Men of the Cloth" />
             </section>        
 
              <section className="credits">
@@ -109,6 +115,16 @@ class MainStage extends Component {
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
+
+              <Accordion title="Real Page Turner" />
+              <Accordion title="The Latent Psychic" />
+              <Accordion title="Less Superstitious" />
+              <Accordion title="Sweet Toothe" />
+              <Accordion title="Nunca Jamas" />
+              <Accordion title="Pick Your Socket" />
+              <Accordion title="My Education in the Dark Arts" />
+              <Accordion title="Dark Arts Coda" />
+              <Accordion title="XWhy" />
             </section>    
 
             <section className="credits">

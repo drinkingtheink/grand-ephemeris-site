@@ -2,9 +2,8 @@
 @import './styles/_logo-svg.scss';
 @import './styles/_instruments-widget.scss';
 @import './styles/_star-generator.scss';
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-
-$app-font: 'Permanent Marker', cursive;
+@import './styles/_accordion.scss';
+@import './styles/_typog.scss';
 
 $very-small-screen: 700px;
 $small-screen: 1000px;
@@ -66,6 +65,10 @@ $trans-bg: rgba(black, .7);
   .position-display {
     color: white;
 
+    @media screen and (max-width: $small-screen) {
+    	display: none;
+	}
+
     span {
       color: $ge-yellow;
     }
@@ -103,6 +106,14 @@ $trans-bg: rgba(black, .7);
     	width: 100%;
     	padding: 0;
     	height: auto;
+
+    	h2 {
+    		text-align: center;
+    	}
+
+    	.discog-menu {
+    		display: none;
+    	}
 	}
   }
 
@@ -123,6 +134,7 @@ $trans-bg: rgba(black, .7);
       font-size: 250%;
       color: $ge-green;
       font-family: $app-font;
+      line-height: 1;
     }
 
     h4 {
