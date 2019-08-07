@@ -4,9 +4,7 @@
 @import './styles/_star-generator.scss';
 @import './styles/_accordion.scss';
 @import './styles/_typog.scss';
-
-$very-small-screen: 700px;
-$small-screen: 1000px;
+@import './styles/_breakpoints.scss';
 
 html,
 body {
@@ -149,10 +147,6 @@ $trans-bg: rgba(black, .7);
       span {
 
       }
-    }
-
-    .lyrics {
-      min-height: 20em;
     }
 
     img {
