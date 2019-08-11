@@ -9,6 +9,7 @@
     "react-countup": "^4.2.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
+    "react-transition-group": "^4.2.2",
     "throttle-debounce": "^2.1.0"
   },
   "scripts": {

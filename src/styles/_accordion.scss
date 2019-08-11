@@ -1,0 +1,46 @@
+@import './_typog.scss';
+@import './_breakpoints.scss';
+
+.ge-accordion {
+	
+	&:hover {
+		cursor: pointer;
+	}
+
+	&-title {
+		font-family: $app-font;
+		color: $ge-green;
+	}
+
+	h2 {
+		border-bottom: 1px solid transparent;
+	}
+
+	&.open {
+		h2 {
+			border-color: rgba(white, .4);
+		}
+	}
+
+	.indicator {
+		display: inline-block;
+		padding: 0 .5em;
+		font-size: 120%;
+
+		&.tilted {
+			transform: rotate(90deg);
+		}
+	}
+
+	.ge-accordion-content {
+		padding: 0 0 0 2em;
+	}
+
+	.ge-accordion-title {
+		text-align: left !important;
+
+		 @media screen and (max-width: $small-screen) {
+		  	font-size: 100%;
+		 }
+	}
+}

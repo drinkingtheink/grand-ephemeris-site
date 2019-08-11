@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import GELogo from '../components/GELogo';
 import InstrumentPanel from '../components/InstrumentPanel';
 import InstrumentWidgets from '../components/InstrumentWidgets';
+import Accordion from '../components/Accordion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import geImg from '../img/ge-group.jpg';
+import lyrics from '../data/lyrics';
 
 class MainStage extends Component {
   constructor(props) {
@@ -52,10 +54,42 @@ class MainStage extends Component {
               <span>Released August, 23rd 2019</span>
             </section>
 
-            <iframe title="Atlassian Breaks" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/817825176&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>  
+            <iframe title="Atlassian Breaks" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/845039828&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+            <section className="stream">
+              <h4>Stream:</h4>
+              
+              <article className="gallery">
+                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/atlassian-breaks" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/atlassian-breaks" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">Google Play</a>
+                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+              </article>
+            </section>    
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
+
+              <Accordion 
+                title="Atlassian Breaks"
+                content={lyrics.ab.ab}
+              />
+              <Accordion 
+                title="Hands So Sleight"
+                content={lyrics.ab.hss}
+              />
+              <Accordion 
+                title="Westport Hymn" 
+                content={lyrics.ab.wh}
+              />
+              <Accordion 
+                title="Men of the Cloth"
+                content={lyrics.ab.motc}
+              />
             </section>        
 
              <section className="credits">
@@ -63,6 +97,7 @@ class MainStage extends Component {
 
               <article className="gallery">
                 <p><strong>Recorded at:</strong> Box Turtle Studios - Austin, TX</p>
+                <p><strong>Engineered by:</strong> Dalton Chamblee</p>
                 <p><strong>Mastered by:</strong> <a href="http://dannystapleton.com/" target="_blank" rel="noopener noreferrer">Danny Stapleton</a></p>
               </article>
 
@@ -109,6 +144,16 @@ class MainStage extends Component {
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
+
+              <Accordion title="Real Page Turner" />
+              <Accordion title="The Latent Psychic" />
+              <Accordion title="Less Superstitious" />
+              <Accordion title="Sweet Toothe" />
+              <Accordion title="Nunca Jamas" />
+              <Accordion title="Pick Your Socket" />
+              <Accordion title="My Education in the Dark Arts" />
+              <Accordion title="Dark Arts Coda" />
+              <Accordion title="XWhy" />
             </section>    
 
             <section className="credits">
