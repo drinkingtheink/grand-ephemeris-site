@@ -35,6 +35,7 @@ class MainStage extends Component {
            </h3>
 
            <p className="ge-desc-quote">Psychedelia/Americana emanating from Austin, TX</p>
+           <p className="ge-desc-quote">(30.2672° N, 97.7431° W)</p>
 
            <InstrumentPanel />
            <InstrumentWidgets />
@@ -51,7 +52,7 @@ class MainStage extends Component {
             <h3>Atlassian Breaks</h3>
             
             <section className="album-info">
-              <span>Released August, 23rd 2019</span>
+              <span>Released August, 18th 2019</span>
             </section>
 
             <iframe title="Atlassian Breaks" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/845039828&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -188,7 +189,7 @@ class MainStage extends Component {
              
              <p>Grand Ephemeris is led by brothers Jason and Joel Harrison who ply their earthly trade in the fair city of Austin, TX. They are accompanied by many talented friends during this project. Please see albums notes for who helped where.</p>
               
-             <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris >></a>
+             <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
           </article>
         </section>
       </main>
