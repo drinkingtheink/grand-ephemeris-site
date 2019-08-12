@@ -229,3 +229,21 @@ $trans-bg: rgba(black, .7);
 .lyrics {
   padding-bottom: 1em;
 }
+
+.ge-contact {
+  text-transform: uppercase;
+  font-size: 130%;
+  background-color: transparent;
+  padding: 1em;
+  text-align: center;
+  display: block;
+  border: 1px solid rgba(white, .4);
+  padding-bottom: 1em;
+  border-radius: 5px;
+  color: $ge-green !important;
+
+  &:hover {
+    color: white !important;
+    background: $ge-green;
+  }
+}
