@@ -87,6 +87,7 @@ $trans-bg: rgba(black, .7);
     padding-right: 2em;
     background-color: $trans-bg;
     z-index: 10;
+    border-right: 2px solid $ge-yellow;
 
     @media screen and (max-width: $small-screen) {
     	width: 100%;
