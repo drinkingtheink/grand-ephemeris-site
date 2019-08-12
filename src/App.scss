@@ -39,6 +39,16 @@ h5 {
   text-transform: uppercase;
 }
 
+a,
+a:link {
+  text-decoration: none;
+  color: $ge-blue2;
+
+  &:hover {
+    color: $ge-yellow;
+  }
+}
+
 $side-panel-width: 20vw;
 $trans-bg: rgba(black, .7);
 
@@ -214,4 +224,8 @@ $trans-bg: rgba(black, .7);
   @media screen and (max-width: $very-small-screen) {
   	display: block;
   }
+}
+
+.lyrics {
+  padding-bottom: 1em;
 }

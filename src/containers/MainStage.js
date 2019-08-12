@@ -43,8 +43,8 @@ class MainStage extends Component {
         <section className="main-panel">
           <h2>Discography</h2>
           <div className="discog-menu">
-            <AnchorLink href='#atlassian-breaks'>Atlassian Breaks</AnchorLink>
-            <AnchorLink href='#votive-viscera'>Votive Viscera</AnchorLink>
+            <AnchorLink href="#atlassian-breaks">Atlassian Breaks</AnchorLink>
+            <AnchorLink href="#votive-viscera">Votive Viscera</AnchorLink>
           </div>
 
           <article className="content-panel atlassian-breaks" id="atlassian-breaks"> 

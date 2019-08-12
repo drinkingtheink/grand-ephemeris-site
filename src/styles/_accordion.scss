@@ -11,11 +11,6 @@
 		}
 	}
 
-	&-title {
-		font-family: $app-font;
-		color: $ge-green;
-	}
-
 	h2 {
 		border-bottom: 1px solid transparent;
 	}
@@ -42,6 +37,8 @@
 
 	.ge-accordion-title {
 		text-align: left !important;
+		color: $ge-green;
+    font-family: $app-font;
 
 		 @media screen and (max-width: $small-screen) {
 		  	font-size: 100%;
