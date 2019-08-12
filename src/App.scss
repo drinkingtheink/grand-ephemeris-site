@@ -131,6 +131,7 @@ $trans-bg: rgba(black, .7);
     padding: 1em;
     margin: 2em 0;
     border-top: 2px solid $ge-yellow;
+    position: relative;
 
     @media screen and (max-width: $small-screen) {
     	max-width: 100%;
@@ -246,4 +247,17 @@ $trans-bg: rgba(black, .7);
     color: white !important;
     background: $ge-green;
   }
+}
+
+.new-release-badge {
+	display: inline-block;
+	padding: .5rem 1.5rem;
+	background-color: $ge-yellow;
+	color: $ge-blue;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	right: 1rem;
+	font-weight: bold;
+	border-bottom: 2px solid $ge-blue2;
 }
