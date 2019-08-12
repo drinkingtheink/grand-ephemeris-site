@@ -1,3 +1,5 @@
+@import './_breakpoints.scss';
+
 @keyframes warpSpeed {
   0% {
   	opacity: 0;
@@ -19,6 +21,10 @@
 	width: 100%;
 	height: 100%;
 	z-index: 1;
+
+	@media screen and (max-width: $small-screen) {
+		display: none;
+	}
 
 	.star {
 		display: inline-block;

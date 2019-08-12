@@ -260,4 +260,14 @@ $trans-bg: rgba(black, .7);
 	right: 1rem;
 	font-weight: bold;
 	border-bottom: 2px solid $ge-blue2;
+
+	@media screen and (max-width: $very-small-screen) {
+		display: none;
+	}
+}
+
+.ge-script {
+	font-family: $app-font;
+	color: $ge-green;
+	font-size: 120%;
 }

@@ -42,7 +42,7 @@ class MainStage extends Component {
 
         <section className="main-panel">
           <p className="ge-description content-panel">
-            Grand Ephemeris is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, keys and raucous rhythms while always keeping two eyes upward and one eye inward.
+            <span className="ge-script">Grand Ephemeris</span> is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, keys and raucous rhythms while always keeping two eyes upward and one eye inward.
           </p>
 
           <h2>Discography</h2>
