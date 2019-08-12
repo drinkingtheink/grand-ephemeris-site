@@ -3,7 +3,6 @@ import GELogo from '../components/GELogo';
 import InstrumentPanel from '../components/InstrumentPanel';
 import InstrumentWidgets from '../components/InstrumentWidgets';
 import Accordion from '../components/Accordion';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import geImg from '../img/ge-group.jpg';
 import lyrics from '../data/lyrics';
 
@@ -42,11 +41,11 @@ class MainStage extends Component {
         </section>
 
         <section className="main-panel">
+          <p className="ge-description content-panel">
+            Grand Ephemeris is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, keys and raucous rhythms while always keeping two eyes upward and one eye inward.
+          </p>
+
           <h2>Discography</h2>
-          <div className="discog-menu">
-            <AnchorLink href="#atlassian-breaks">Atlassian Breaks</AnchorLink>
-            <AnchorLink href="#votive-viscera">Votive Viscera</AnchorLink>
-          </div>
 
           <article className="content-panel atlassian-breaks" id="atlassian-breaks"> 
             <h3>Atlassian Breaks</h3>
@@ -55,7 +54,7 @@ class MainStage extends Component {
               <span>Released August, 18th 2019</span>
             </section>
 
-            <iframe title="Atlassian Breaks" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/845039828&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe title="Atlassian Breaks" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/845039828&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
             <section className="stream">
               <h4>Stream:</h4>
@@ -189,6 +188,7 @@ class MainStage extends Component {
              
              <p>Grand Ephemeris is led by brothers Jason and Joel Harrison who ply their earthly trade in the fair city of Austin, TX. They are accompanied by many talented friends during this project. Please see albums notes for who helped where.</p>
               
+              {/* eslint no-script-url: 0 */}                
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
           </article>
         </section>

@@ -2,6 +2,7 @@ import React from 'react';
 
 const Star = (props) => {
 	const starStyle = {
+		animationDelay: `${props.star.animationDelay}s`,
 		backgroundColor: props.star.color,
 		width: `${props.star.size}px`,
 		height: `${props.star.size}px`,

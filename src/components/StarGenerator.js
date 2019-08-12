@@ -37,20 +37,21 @@ class StarGenerator extends Component {
 	}
 
 	setStarCount() {
-		let newNumber = this.getRandomInt(100, 200);
+		let newNumber = this.getRandomInt(150, 275);
 		let newStarField = [];
 		let app = this;
 
 		for (var i = 0; i < newNumber; i++) {
 		    let newStar = {
 		    	size: app.getRandomInt(5, 10),
-		    	opacity: app.getRandomInt(3, 9),
+		    	opacity: app.getRandomInt(2, 5),
 		    	right_pos: app.getRandomInt(1, 100),
 		    	left_pos: app.getRandomInt(1, 100),
 		    	top_pos: app.getRandomInt(1, 100),
 		    	color: app.getRandomColor(),
 		    	box_shadow: `0 0 ${app.getRandomInt(1, 15)}px 0 ${app.getRandomColor()}`,
-		    	key: app.getRandomString(9)
+		    	key: app.getRandomString(9),
+		    	animationDelay: app.getRandomInt(1, 10)
 		    }
 		    newStarField.push(newStar);
 	  	}
@@ -62,7 +63,7 @@ class StarGenerator extends Component {
 	    let app = this;
 	    setInterval(function(){
 	      app.setStarCount();
-	    }, 5000);
+	    }, 25000);
 	}
 
 	render() {
