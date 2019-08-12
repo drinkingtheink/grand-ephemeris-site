@@ -5,6 +5,10 @@
 	
 	&:hover {
 		cursor: pointer;
+
+		.ge-accordion-title {
+			color: white;
+		}
 	}
 
 	&-title {
