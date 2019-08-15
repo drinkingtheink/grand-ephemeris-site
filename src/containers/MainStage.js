@@ -98,7 +98,7 @@ class MainStage extends Component {
               <h4>Production:</h4>
 
               <article className="gallery">
-                <p><strong>Recorded at:</strong> Box Turtle Studios - Austin, TX</p>
+                <p><strong>Recorded at:</strong> Dawsey Ray Studios - Austin, TX</p>
                 <p><strong>Engineered by:</strong> Dalton Chamblee</p>
                 <p><strong>Mastered by:</strong> <a href="http://dannystapleton.com/" target="_blank" rel="noopener noreferrer">Danny Stapleton</a></p>
               </article>
