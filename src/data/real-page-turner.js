@@ -1,0 +1,5 @@
+/* eslint no-useless-escape: 0 */
+
+const rpt = "Coming fast and hard it\'s raining cats and dogs and water mocassins\nFrom that town you hated, born and raised, baptised, and born and raised again\nSo just cry me a river, all seven seas and every ocean\nWell let\'s just break it down\nRight down to its most basic compounds, it\'s salt content, cell count, its radio half-life, its huge fucking mushroom cloud\nSo I\'ll just write this story up the walls and trees and building in this town\nYeah it\'s a real page turner, thick with irony and mood and first person\nAnd all the critics rave you can\'t put it down\nWell try not to feak out\nBut these walls are closing in, blood presure\'s crumbling\nI\'ve got a half a mind to talk about the half I lost (my brother knows)\nTry not to freak out\nI'll be the first to say\nUnder that sign born and raised (under its big red claws)\nStuck in that southern state\nYou birth place : your grave\nWell now I\'m freaking out\nBecause I see it all so clear, its perfectly circular\nI am the same as when I first drew breath\nIt was my first and last"
+
+export default rpt;

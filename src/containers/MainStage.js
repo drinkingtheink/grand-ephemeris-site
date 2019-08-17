@@ -147,15 +147,32 @@ class MainStage extends Component {
             <section className="lyrics">
               <h4>Lyrics:</h4>
 
-              <Accordion title="Real Page Turner" />
+              <Accordion 
+                title="Real Page Turner" 
+                content={lyrics.vv.rpt}
+              />
               <Accordion title="The Latent Psychic" />
-              <Accordion title="Less Superstitious" />
-              <Accordion title="Sweet Toothe" />
-              <Accordion title="Nunca Jamas" />
-              <Accordion title="Pick Your Socket" />
+              <Accordion 
+                title="Less Superstitious" 
+                content={lyrics.vv.ls}
+              />
+              <Accordion 
+                title="Sweet Toothe" 
+                content={lyrics.vv.st}
+              />
+              <Accordion 
+                title="Nunca Jamas" 
+                content={lyrics.vv.nj}
+              />
+              <Accordion 
+                title="Pick Your Socket" 
+                content={lyrics.vv.pys}
+              />
               <Accordion title="My Education in the Dark Arts" />
-              <Accordion title="Dark Arts Coda" />
-              <Accordion title="XWhy" />
+              <Accordion 
+                title="XWhy"
+                content={lyrics.vv.xw} 
+              />
             </section>    
 
             <section className="credits">
