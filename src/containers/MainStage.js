@@ -151,7 +151,10 @@ class MainStage extends Component {
                 title="Real Page Turner" 
                 content={lyrics.vv.rpt}
               />
-              <Accordion title="The Latent Psychic" />
+              <Accordion 
+                title="The Latent Psychic" 
+                content={lyrics.vv.tlp} 
+              />
               <Accordion 
                 title="Less Superstitious" 
                 content={lyrics.vv.ls}
@@ -168,7 +171,10 @@ class MainStage extends Component {
                 title="Pick Your Socket" 
                 content={lyrics.vv.pys}
               />
-              <Accordion title="My Education in the Dark Arts" />
+              <Accordion 
+                title="My Education in the Dark Arts" 
+                content={lyrics.vv.me} 
+              />
               <Accordion 
                 title="XWhy"
                 content={lyrics.vv.xw} 

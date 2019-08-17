@@ -1,0 +1,5 @@
+/* eslint no-useless-escape: 0 */
+
+const me = "You told me bury myself in my studies\nI\'ll die from understanding these inner-workings\nThe lift before the fall\nPotential and kinetic addictive energie\nThey're driving and inspire me\nResponsibility has taught me everything\nCondition's everything\nI caught you bottling up the darkness trying to make a profit off of it\nI warned you, once the monsters find you, conversions led them right to your doorstep\nI told you, all of these skeletons haunt you, they pick apart your bones for their new dress\nYour Old Man, he is not so discerning, he let them all in without warning\nThey ate up everything...their lips went 'smack, smack, smack!'\nAgainst the glass ceiling and walls, fingernails could not hold on\nSuggesting better things for those with our nose in our dark studies\nTo say the names that draw the ties to and from our shorelines\nResponsibility...I haven't decided if I'll use wisely"
+
+export default me;

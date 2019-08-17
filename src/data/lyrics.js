@@ -8,6 +8,8 @@ import st from './sweet-toothe';
 import nj from './nunca-jamas';
 import pys from './pick-your-socket';
 import xw from './xwhy';
+import me from './my-education';
+import tlp from './the-latent-psychic';
 
 const lyrics = {
 	ab: {
@@ -22,7 +24,9 @@ const lyrics = {
     st,
     nj,
     pys,
-    xw
+    xw,
+    me,
+    tlp
 	}
 }
 
