@@ -62,14 +62,14 @@ class MainStage extends Component {
               <h4>Stream:</h4>
               
               <article className="gallery">
-                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://open.spotify.com/album/2ZThkRxu9Mz5E44Nte7LYN" target="_blank" rel="noopener noreferrer">Spotify</a>
                 <a href="https://soundcloud.com/grandephemeris/sets/atlassian-breaks" target="_blank" rel="noopener noreferrer">SoundCloud</a>
                 <a href="https://grandephemeris.bandcamp.com/album/atlassian-breaks" target="_blank" rel="noopener noreferrer">Bandcamp</a>
-                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">YouTube</a>
-                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">iTunes</a>
-                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">Google Play</a>
-                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="UPDATE-LINK-SOON" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+                <a href="https://www.youtube.com/watch?v=kN6qfuCQ-50&list=OLAK5uy_l08-n9ifDQ6VtUTxKk7_yKlHV56KMOH08" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/atlassian-breaks-ep/1476154940" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://play.google.com/store/music/album/Grand_Ephemeris_Atlassian_Breaks?id=Bbrtynzam6pyiakd4tet6obmkou&hl=en" target="_blank" rel="noopener noreferrer">Google Play</a>
+                <a href="https://www.amazon.com/dp/B07WH8LCZ1/ref=sr_1_1&qid=1566132499&s=dmusic&search-type=ss&sr=1-1" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/atlassian-breaks-78069011/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
               </article>
             </section>    
 
