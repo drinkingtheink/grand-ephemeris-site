@@ -5,6 +5,7 @@ import InstrumentWidgets from '../components/InstrumentWidgets';
 import Accordion from '../components/Accordion';
 import geImg from '../img/ge-group.jpg';
 import lyrics from '../data/lyrics';
+import InstagramEmbed from 'react-instagram-embed';
 
 class MainStage extends Component {
   constructor(props) {
@@ -215,6 +216,29 @@ class MainStage extends Component {
              {/* eslint no-script-url: 0 */}                
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
 
+             <InstagramEmbed
+              url='https://www.instagram.com/p/B1VDPHoHc0K/'
+              hideCaption={false}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+             />
+
+             <InstagramEmbed
+              url='https://www.instagram.com/p/B1JVxHIFmOy/'
+              hideCaption={false}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+             />
              <img src={geImg} alt="The first incantation of Grand Ephemeris" />
                            
           </article>
