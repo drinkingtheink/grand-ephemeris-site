@@ -74,6 +74,18 @@ class MainStage extends Component {
               </article>
             </section>    
 
+            <section className="videos">
+              <h4>Video:</h4>
+              <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/H6ag4-VWXV0" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen>
+              </iframe>
+            </section>
+
             <section className="lyrics">
               <h4>Lyrics:</h4>
 
@@ -142,7 +154,15 @@ class MainStage extends Component {
 
             <section className="videos">
               <h4>Video:</h4>
-              <iframe title="Less Superstitious from Votive Viscera" src="https://player.vimeo.com/video/111038257" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+              <iframe 
+                title="Less Superstitious from Votive Viscera" 
+                src="https://player.vimeo.com/video/111038257" 
+                width="640" 
+                height="360" 
+                frameBorder="0" 
+                allow="autoplay; fullscreen" 
+                allowFullScreen>
+              </iframe>
             </section>
 
             <section className="lyrics">
