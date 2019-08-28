@@ -44,6 +44,10 @@ class MainStage extends Component {
         <section className="main-panel">
           <p className="ge-description content-panel">
             <span className="ge-script">Grand Ephemeris</span> is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, keys and raucous rhythms.
+          
+             {/* eslint no-script-url: 0 */}                
+             <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
+
           </p>
 
           <h2>Discography</h2>

@@ -247,9 +247,10 @@ $trans-bg: rgba(black, .7);
   padding-bottom: 1em;
   border-radius: 5px;
   color: $ge-green !important;
+  margin-top: 1rem;
 
   &:hover {
-    color: white !important;
+    color: rgba(black, .8) !important;
     background: $ge-green;
   }
 }
