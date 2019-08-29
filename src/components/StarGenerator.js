@@ -37,7 +37,7 @@ class StarGenerator extends Component {
 	}
 
 	setStarCount() {
-		let newNumber = this.getRandomInt(300, 600);
+		let newNumber = this.getRandomInt(100, 200);
 		let newStarField = [];
 		let app = this;
 
