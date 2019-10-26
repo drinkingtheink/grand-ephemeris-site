@@ -1,0 +1,66 @@
+$calendarBorder: 1px solid rgba(white, .2);
+$smallTextSize: 85%;
+
+.calendar {
+  .calendar-entry {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(black, .5);
+    border-radius: 2%;
+
+    section {
+      padding: .5em 3em;
+    }
+  }
+
+  .date {
+    text-align: center;
+    font-family: $app-font;
+    color: $ge-green;
+    border-right: $calendarBorder;
+
+    .day {
+      font-size: 240%;
+    }
+
+    .month {
+      margin-top: -10px;
+      font-size: 120%;
+    }
+  }
+
+  .venue {
+    text-align: left;
+    width: 60%;
+    border-right: $calendarBorder;
+
+    .venue-name {
+      a {
+        font-size: 200%;
+      }
+    }
+
+    .address {
+      font-size: $smallTextSize;
+    }
+
+    .map-link {
+      display: block;
+      font-size: $smallTextSize;
+      margin-top: .25em;
+    }
+  }
+
+  .time {
+    text-align: center;
+    width: 30%;
+    padding-top: 3% !important;
+    font-family: $app-font;
+    font-size: 160%;
+    color: $ge-green;
+  }
+
+  p {
+    margin: 0;
+  }
+}

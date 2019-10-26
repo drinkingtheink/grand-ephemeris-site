@@ -50,6 +50,34 @@ class MainStage extends Component {
 
           </p>
 
+          <h2>Live Shows</h2>
+
+          <article className="content-panel calendar"> 
+            <div class="calendar-entry">
+              <section class="date">
+                <p class="day">14</p>
+                <p class="month">December</p>
+                <p class="year">2019</p>
+              </section>
+              <section class="venue">
+                <p class="venue-name">
+                  <a href="https://g.page/Smoothvillageleander?share" target="_blank">
+                    Smooth Village
+                  </a>
+                </p>
+                <p class="address">
+                  203 West E Broade St. - Leander, TX
+                </p>
+                <a class="map-link" href="https://g.page/Smoothvillageleander?share" target="_blank">
+                  View on Map
+                </a>
+              </section>
+              <section class="time">
+                <p class="schedule">6pm-8pm</p>
+              </section>
+            </div>
+          </article>          
+
           <h2>Discography</h2>
 
           <article className="content-panel atlassian-breaks" id="atlassian-breaks"> 
