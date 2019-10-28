@@ -61,14 +61,14 @@ class MainStage extends Component {
               </section>
               <section class="venue">
                 <p class="venue-name">
-                  <a href="https://g.page/Smoothvillageleander?share" target="_blank">
+                  <a href="https://g.page/Smoothvillageleander?share" rel="noopener noreferrer" target="_blank">
                     Smooth Village
                   </a>
                 </p>
                 <p class="address">
                   203 West E Broade St. - Leander, TX
                 </p>
-                <a class="map-link" href="https://g.page/Smoothvillageleander?share" target="_blank">
+                <a class="map-link" href="https://g.page/Smoothvillageleander?share" rel="noopener noreferrer" target="_blank">
                   View on Map
                 </a>
               </section>
