@@ -73,7 +73,7 @@ class MainStage extends Component {
                 </a>
               </section>
               <section class="time">
-                <p class="schedule">6pm-8pm</p>
+                <p class="schedule">6pm-7:30pm</p>
               </section>
             </div>
           </article>          
