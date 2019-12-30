@@ -48,35 +48,7 @@ class MainStage extends Component {
              {/* eslint no-script-url: 0 */}                
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
 
-          </p>
-
-          <h2>Live Shows</h2>
-
-          <article className="content-panel calendar"> 
-            <div class="calendar-entry">
-              <section class="date">
-                <p class="day">14</p>
-                <p class="month">December</p>
-                <p class="year">2019</p>
-              </section>
-              <section class="venue">
-                <p class="venue-name">
-                  <a href="https://g.page/Smoothvillageleander?share" rel="noopener noreferrer" target="_blank">
-                    Smooth Village
-                  </a>
-                </p>
-                <p class="address">
-                  203 West E Broade St. - Leander, TX
-                </p>
-                <a class="map-link" href="https://g.page/Smoothvillageleander?share" rel="noopener noreferrer" target="_blank">
-                  View on Map
-                </a>
-              </section>
-              <section class="time">
-                <p class="schedule">6pm-7:30pm</p>
-              </section>
-            </div>
-          </article>          
+          </p>        
 
           <h2>Discography</h2>
 
