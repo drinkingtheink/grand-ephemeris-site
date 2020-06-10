@@ -53,7 +53,7 @@ class MainStage extends Component {
           <h2>Discography</h2>
 
           <article className="content-panel atlassian-breaks" id="atlassian-breaks"> 
-            <span className="new-release-badge">New Release</span>
+            <span className="new-release-badge">Latest Release</span>
 
             <h3>Atlassian Breaks</h3>
             
