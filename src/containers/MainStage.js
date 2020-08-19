@@ -81,6 +81,7 @@ class MainStage extends Component {
             <section className="videos">
               <h4>Video:</h4>
               <iframe 
+                title="Grand Ephemeris live video - Performance of Men of the Cloth"
                 width="560" 
                 height="315" 
                 src="https://www.youtube.com/embed/H6ag4-VWXV0" 
