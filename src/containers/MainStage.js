@@ -44,17 +44,43 @@ class MainStage extends Component {
         <section className="main-panel">
           <p className="ge-description content-panel">
             <span className="ge-script">Grand Ephemeris</span> is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, keys and raucous rhythms.
-          
-             {/* eslint no-script-url: 0 */}                
+                  
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
-
           </p>        
 
           <h2>Discography</h2>
 
-          <article className="content-panel atlassian-breaks" id="atlassian-breaks"> 
+          <article className="content-panel atlassian-breaks" id="remeridian"> 
             <span className="new-release-badge">Latest Release</span>
 
+            <h3>Remeridian</h3>
+            
+            <section className="album-info">
+              <span>Releasing January 2021</span>
+            </section>
+
+            <a target="_blank" href="https://grandephemeris.bandcamp.com/"><img src="https://i.ibb.co/8sXy7VM/remeridian-promo-banner.jpg" alt="Grand Ephemeris present: Remeridian - their new collection of music" /></a>
+
+            <h4>"Gemini Drift" from Remeridian</h4>
+            <iframe class="gb-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3356015452/size=small/bgcol=ffffff/linkcol=0687f5/track=2127716486/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/remeridian-2">Remeridian by Grand Ephemeris</a></iframe>
+
+            <h4>Musicians:</h4>
+            
+            <article className="gallery">
+              <p><strong>Jason M Harrison:</strong> vocals/guitar/bass/beats</p>
+              <p><strong>Dalton Chamblee:</strong> bass on "Westheimer Waltz"</p>
+              <p><strong>Dave Thompson:</strong> lead guitar on "Remeridian"</p>
+            </article>
+
+            <h4>Production:</h4>
+
+            <article className="gallery">
+              <p><strong>Recorded at:</strong> Pendragon Post - Austin, TX</p>
+              <p><strong>Engineered by:</strong> Jason M Harrison</p>
+            </article>
+          </article>
+
+          <article className="content-panel atlassian-breaks" id="atlassian-breaks"> 
             <h3>Atlassian Breaks</h3>
             
             <section className="album-info">
@@ -113,14 +139,6 @@ class MainStage extends Component {
             </section>        
 
              <section className="credits">
-              <h4>Production:</h4>
-
-              <article className="gallery">
-                <p><strong>Recorded at:</strong> Dawsey Ray Studios - Austin, TX</p>
-                <p><strong>Engineered by:</strong> Dalton Chamblee</p>
-                <p><strong>Mastered by:</strong> <a href="http://dannystapleton.com/" target="_blank" rel="noopener noreferrer">Danny Stapleton</a></p>
-              </article>
-
               <h4>Musicians:</h4>
 
               <article className="gallery">
@@ -129,6 +147,14 @@ class MainStage extends Component {
                 <p><strong>Kyle Williams:</strong> keys</p>
                 <p><strong>Sam Berniard:</strong> guitar</p>
                 <p><strong>Joel Harrison:</strong> vocals</p>
+              </article>
+
+              <h4>Production:</h4>
+
+              <article className="gallery">
+                <p><strong>Recorded at:</strong> Dawsey Ray Studios - Austin, TX</p>
+                <p><strong>Engineered by:</strong> Dalton Chamblee</p>
+                <p><strong>Mastered by:</strong> <a href="http://dannystapleton.com/" target="_blank" rel="noopener noreferrer">Danny Stapleton</a></p>
               </article>
             </section>       
           </article>
@@ -208,13 +234,6 @@ class MainStage extends Component {
             </section>    
 
             <section className="credits">
-              <h4>Production:</h4>
-              
-              <article className="gallery">
-                <p><strong>Recorded at:</strong> On the Altar Studios - Austin, TX</p>
-                <p><strong>Mastered by:</strong> Jeff Gudenrath - <a href="http://www.audiointegritymastering.com/" rel="noopener noreferrer" target="_blank">AudioIntegrity</a> - Austin, TX</p>
-              </article>
-              
               <h4>Musicians:</h4>
               
               <article className="gallery">
@@ -225,6 +244,13 @@ class MainStage extends Component {
                 <p><strong>Nathan Campbell:</strong> mandolin/slide guitar</p>
                 <p><strong>Aaron Campbell:</strong> banjo/mandolin</p>
                 <p><strong>Tim Aylsworth:</strong> guitar</p>
+              </article>
+
+              <h4>Production:</h4>
+              
+              <article className="gallery">
+                <p><strong>Recorded at:</strong> On the Altar Studios - Austin, TX</p>
+                <p><strong>Mastered by:</strong> Jeff Gudenrath - <a href="http://www.audiointegritymastering.com/" rel="noopener noreferrer" target="_blank">AudioIntegrity</a> - Austin, TX</p>
               </article>
             </section>
           </article>

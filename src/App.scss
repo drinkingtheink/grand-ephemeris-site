@@ -128,7 +128,7 @@ $trans-bg: rgba(black, .7);
     	.discog-menu {
     		display: none;
     	}
-	}
+	 }
   }
 
   .content-panel {
@@ -164,6 +164,7 @@ $trans-bg: rgba(black, .7);
 
     img {
       border: 5px solid white;
+      max-width: 100%;
     }
   }
 }
@@ -281,4 +282,8 @@ $trans-bg: rgba(black, .7);
 
 .ge-contact {
   margin-bottom: 1em;
+}
+
+.gb-embed {
+  border: 0; width: 100%; height: 42px;
 }
