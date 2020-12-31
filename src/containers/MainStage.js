@@ -43,7 +43,7 @@ class MainStage extends Component {
 
         <section className="main-panel">
           <p className="ge-description content-panel">
-            <span className="ge-script">Grand Ephemeris</span> is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, keys and raucous rhythms.
+            <span className="ge-script">Grand Ephemeris</span> is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, electronica, keys and raucous rhythms.
                   
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
           </p>        
@@ -65,7 +65,7 @@ class MainStage extends Component {
             <iframe class="gb-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3356015452/size=small/bgcol=ffffff/linkcol=0687f5/track=2127716486/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/remeridian-2">Remeridian by Grand Ephemeris</a></iframe>
 
             <h4>Musicians:</h4>
-            
+
             <article className="gallery">
               <p><strong>Jason M Harrison:</strong> vocals/guitar/bass/beats</p>
               <p><strong>Dalton Chamblee:</strong> bass on "Westheimer Waltz"</p>
@@ -77,6 +77,11 @@ class MainStage extends Component {
             <article className="gallery">
               <p><strong>Recorded at:</strong> Pendragon Post - Austin, TX</p>
               <p><strong>Engineered by:</strong> Jason M Harrison</p>
+            </article>
+
+            <h4>Artwork:</h4>
+            <article className="gallery">
+              <p><strong>Background image by:</strong> YuanChuan / <a target="_blank" href="https://twitter.com/yuanchuan23" alt="The artist on Twitter">@yuanchuan23</a></p>
             </article>
           </article>
 
