@@ -1,0 +1,5 @@
+/* eslint no-useless-escape: 0 */
+
+const ww = "The open road\nSo open ended\nAn open nerve\nYet offended\nThis open wound malcontented\nOpen road, do the mending \nYou mean to tell me\nthere's a socket and a current and a patiently waiting wave   \nand they thrash and they rave and they crave and they crest and they crash\naround something that's brave\nThe open road\nSo open ended\nYour open mouth\nsalty and pin pricked\nBut there's an outlet?\nThere's a summit?\nConsecrate until I become it\nThere's current\nThere's a there's a socket\nYou mean to tell me\nthere's a beating and a rhythm and a passion on full display\nand they belt and they sing and they lull us from our crushing day-to-day \nYou mean to tell me\nthere's a lecturn and a pulpit and a patient, thirsty, waiting grave \nand it moans  for my carapace\nOr plug this in and fight the fate!"
+
+export default ww;

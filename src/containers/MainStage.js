@@ -42,11 +42,11 @@ class MainStage extends Component {
         </section>
 
         <section className="main-panel">
-          <p className="ge-description content-panel">
+          {/*<p className="ge-description content-panel">
             <span className="ge-script">Grand Ephemeris</span> is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, electronica, keys and raucous rhythms.
                   
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
-          </p>        
+          </p>  */}      
 
           <h2>Discography</h2>
 
@@ -56,13 +56,48 @@ class MainStage extends Component {
             <h3>Remeridian</h3>
             
             <section className="album-info">
-              <span>Releasing January 2021</span>
+              <span>Released December 31st 2020</span>
             </section>
 
-            <a target="_blank" href="https://grandephemeris.bandcamp.com/"><img src="https://i.ibb.co/8sXy7VM/remeridian-promo-banner.jpg" alt="Grand Ephemeris present: Remeridian - their new collection of music" /></a>
+            <iframe title="Remeridian - SoundCloud" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1191576760&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-            <h4>"Gemini Drift" from Remeridian</h4>
-            <iframe class="gb-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3356015452/size=small/bgcol=ffffff/linkcol=0687f5/track=2127716486/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/remeridian-2">Remeridian by Grand Ephemeris</a></iframe>
+            <h4>Bandcamp</h4>
+            <iframe title="Remeridian - Bandcamp" className="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3356015452/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/remeridian-2">Remeridian by Grand Ephemeris</a></iframe>
+
+            <section className="stream">
+              <h4>Stream:</h4>
+              
+              <article className="gallery">
+                <a href="https://open.spotify.com/album/1UYsqqOikff3gISzTL3X4g?si=oGYJxxVLQ2GFT9z83gm0IA" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/remeridian" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/remeridian-2" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://youtu.be/1Q7S1q5Bn44" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/remeridian-ep/1547479785" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://music.amazon.com/albums/B08S7194F6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/remeridian-122335840/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+              </article>
+            </section>
+
+            <section className="lyrics">
+              <h4>Lyrics:</h4>
+
+              <Accordion 
+                title="Westheimer Waltz"
+                content={lyrics.r.ww}
+              />
+              <Accordion 
+                title="Gemini Drift"
+                content={lyrics.r.gd}
+              />
+              <Accordion 
+                title="Remeridian" 
+                content={lyrics.r.r}
+              />
+              <Accordion 
+                title="Men of the Cloth"
+                content={lyrics.ab.motc}
+              />
+            </section>  
 
             <h4>Musicians:</h4>
 
@@ -81,7 +116,7 @@ class MainStage extends Component {
 
             <h4>Artwork:</h4>
             <article className="gallery">
-              <p><strong>Background image by:</strong> YuanChuan / <a target="_blank" href="https://twitter.com/yuanchuan23" alt="The artist on Twitter">@yuanchuan23</a></p>
+              <p><strong>Background artwork by:</strong> YuanChuan / <a target="_blank" href="https://twitter.com/yuanchuan23" alt="The artist on Twitter">@yuanchuan23</a></p>
             </article>
           </article>
 
@@ -93,6 +128,9 @@ class MainStage extends Component {
             </section>
 
             <iframe title="Atlassian Breaks" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/845039828&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+            <h4>Bandcamp</h4>
+            <iframe title="Atlassian Breaks - Bandcamp" className="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3730474485/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/atlassian-breaks">Atlassian Breaks by Grand Ephemeris</a></iframe>
 
             <section className="stream">
               <h4>Stream:</h4>
