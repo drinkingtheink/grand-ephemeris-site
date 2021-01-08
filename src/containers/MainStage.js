@@ -114,7 +114,7 @@ class MainStage extends Component {
             <h4>Production:</h4>
 
             <article className="gallery">
-              <p><strong>Recorded at:</strong> Pendragon Post - Austin, TX</p>
+              <p><strong>Recorded at:</strong> Pendragon Press - Austin, TX</p>
               <p><strong>Engineered by:</strong> Jason M Harrison</p>
             </article>
 
