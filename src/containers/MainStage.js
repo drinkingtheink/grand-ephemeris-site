@@ -153,6 +153,8 @@ class MainStage extends Component {
 
             <section className="videos">
               <h4>Video:</h4>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/kN6qfuCQ-50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
               <iframe 
                 title="Grand Ephemeris live video - Performance of Men of the Cloth"
                 width="560" 
@@ -244,6 +246,8 @@ class MainStage extends Component {
                 allow="autoplay; fullscreen" 
                 allowFullScreen>
               </iframe>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh_Vur2OTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
 
             <section className="lyrics">
