@@ -94,8 +94,8 @@ class MainStage extends Component {
                 content={lyrics.r.r}
               />
               <Accordion 
-                title="Men of the Cloth"
-                content={lyrics.ab.motc}
+                title="Force Fields"
+                content={lyrics.r.ff}
               />
             </section>  
 
@@ -210,6 +210,9 @@ class MainStage extends Component {
             </section>
 
             <iframe title="Votive Viscera" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/45125373&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>            
+            
+            <h4>Bandcamp</h4>
+            <iframe className="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3885287866/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/votive-viscera">Votive Viscera by Grand Ephemeris</a></iframe>
             
             <section className="stream">
               <h4>Stream:</h4>
