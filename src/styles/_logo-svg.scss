@@ -1,70 +1,15 @@
-@keyframes rotation {
-  from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+.cls-1{
+  fill:#011b39;
 }
 
-@keyframes opacityFlicker {
-  0% {
-    opacity: .7;
-  }
-  30% {
-    opacity: .4;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+.cls-2{fill:#1275b4;}
 
-#ge-logo-mark {
-  padding: 2em 0 0 .5em;
-  max-width: 15em;
-  
-  .cls-1 {
-    fill: $ge-yellow;
-  }
+.cls-3{fill:#edd337;}
 
-  #grand-text,
-  #ephemeris-text {
-    path {
-      fill: white;
+.cls-4{fill:#fff;}
 
-      &:hover {
-        fill: $ge-green;
-      }
-    }
-  }
+.cls-5{fill:#eb1c24;}
 
-  #armillary {
-    position: relative;
-
-    &-left {
-      &:hover {
-        fill: $ge-green;
-      }
-    }
-
-    &-right {
-      &:hover {
-        fill: $ge-green;
-      }
-    }
-  }
-
-  #inner-arm-one {
-    fill: $ge-green;
-    animation: opacityFlicker 4s infinite;
-
-    &:hover {
-      fill: $ge-yellow;
-    }
-  }
-
-  #inner-arm-two {
-    fill: white;
-    animation: opacityFlicker 2s 10s infinite;
-
-    &:hover {
-      fill: $ge-green;
-    }
-  }
+#logo-wrapper {
+  padding-top: 1rem;
 }
