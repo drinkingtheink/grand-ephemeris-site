@@ -147,7 +147,7 @@ $trans-bg: rgba(black, .7);
       margin: 0 0 .5em 0;
       padding: 0;
       font-size: 250%;
-      color: $ge-blue2;
+      color: $ge-green;
       font-family: $app-font;
       line-height: 1;
     }
@@ -156,6 +156,7 @@ $trans-bg: rgba(black, .7);
       padding-bottom: .5em;
       margin-bottom: 1em;
       border-bottom: 1px solid rgba(white, .3);
+      color: $ge-blue2;
     }
 
     .album-info {
@@ -226,7 +227,7 @@ $trans-bg: rgba(black, .7);
   &:hover {
     color: $ge-yellow;
     border-color: $ge-yellow;
-    background-color: rgba($ge-green, .3);
+    background-color: rgba($ge-blue2, .3);
   }
 
   @media screen and (max-width: $very-small-screen) {
