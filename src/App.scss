@@ -85,6 +85,11 @@ $trans-bg: rgba(black, .7);
     span {
       color: $ge-yellow;
     }
+
+    .dash-val {
+      display: inline-block;
+      width: 46px;
+    }
   }
 
   .attribution {

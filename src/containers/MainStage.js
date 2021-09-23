@@ -31,7 +31,7 @@ class MainStage extends Component {
         <section className="left-panel attribution">
           <GELogo />
            <h3 className="position-display">
-             <span>λo:</span> { state.x }° | <span>ϕo:</span> { state.y }°
+             <span>λo:</span> <p class="dash-val">{ state.x }</p>°  <span>ϕo:</span> <p class="dash-val">{ state.y }</p>°
            </h3>
 
            <p className="ge-desc-quote">Psychedelia/Americana emanating from Austin, TX</p>
