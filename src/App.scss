@@ -166,6 +166,9 @@ $trans-bg: rgba(black, .7);
 
     .album-info {
       padding-bottom: 1em;
+      font-family: $header-font;
+      text-transform: uppercase;
+      color: $ge-blue2;
     }
 
     img {

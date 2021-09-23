@@ -100,10 +100,11 @@
 	}
 
 	.switch {
-		fill: $ge-green !important;
+		fill: $ge-blue2 !important;
 
 		&.left-switch {
 			animation: switchFly1 3s infinite;
+      fill: $ge-red !important;
 		}
 
 		&.center-switch {
@@ -116,7 +117,13 @@
 	}
 
 	.radar-blip {
-		fill: white !important;
+		fill: $ge-blue2 !important;
 		animation: blipBop 10s infinite;
 	}
+
+  #bottom-text {
+    rect {
+      fill: $ge-red !important;
+    }
+  }
 }
