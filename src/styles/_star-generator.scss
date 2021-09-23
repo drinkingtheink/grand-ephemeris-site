@@ -32,7 +32,8 @@
 		border-radius: 50%;
 		background-color: white;
 		position: absolute;
-		animation: warpSpeed 5s forwards;
+		animation: warpSpeed 5s ease-in-out;
 		animation-delay: 36s;
+		backface-visibility: hidden;
 	}
 }

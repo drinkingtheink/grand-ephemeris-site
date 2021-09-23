@@ -48,8 +48,6 @@ class MainStage extends Component {
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
           </p>  */}      
 
-          <h2>Discography</h2>
-
           <article className="content-panel atlassian-breaks" id="remeridian"> 
             <span className="new-release-badge">Latest Release</span>
 
