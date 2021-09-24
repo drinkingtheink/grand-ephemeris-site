@@ -39,6 +39,8 @@ class MainStage extends Component {
 
            <InstrumentPanel />
            <InstrumentWidgets />
+
+           <p><a href="https://github.com/drinkingtheink/grand-ephemeris-site" target="_blank">About this site</a></p>
         </section>
 
         <section className="main-panel">
