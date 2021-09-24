@@ -1,5 +1,5 @@
 ## Website for my band, Grand Ephemeris
-![The new Grand Ephemeris site](https://gdurl.com/cwSW)
+![The new Grand Ephemeris site](https://i.ibb.co/7gys98n/ge-site-screenshot.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
