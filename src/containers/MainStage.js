@@ -314,7 +314,7 @@ class MainStage extends Component {
 
           <article className="content-panel covers">
             <h3>About/Contact</h3>
-             <p>Grand Ephemeris is led by brothers Jason and Joel Harrison who ply their earthly trade in the fair city of Austin, TX. They are accompanied by many talented friends during this project. Please see albums notes for who helped where.</p>
+             <p>Grand Ephemeris is led by brothers Jason and Joel Harrison who ply their earthly trade in the fair city of Austin, TX. They are accompanied by many talented friends during this project. Please see album notes for who helped where.</p>
 
              {/* eslint no-script-url: 0 */}                
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
