@@ -206,6 +206,12 @@ $trans-bg: rgba(black, .7);
   }
 }
 
+.left-panel {
+  .symbol {
+    margin-left: .5rem;
+  }
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
