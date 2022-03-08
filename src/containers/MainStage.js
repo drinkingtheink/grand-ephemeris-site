@@ -50,9 +50,92 @@ class MainStage extends Component {
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
           </p>  */}      
 
-          <article className="content-panel atlassian-breaks" id="remeridian"> 
+          <article className="content-panel equinoxical" id="equinoxical"> 
             <span className="new-release-badge">Latest Release</span>
 
+            <h3>Equinoxical</h3>
+            
+            <section className="album-info">
+              <span>Released March 20th 2022</span>
+            </section>
+
+            <iframe title="Equinoxical - SoundCloud" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1191576760&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+            <h4>Bandcamp</h4>
+            <iframe title="Equinoxical - Bandcamp" className="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3356015452/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/remeridian-2">Remeridian by Grand Ephemeris</a></iframe>
+
+            <section className="stream">
+              <h4>Stream:</h4>
+              
+              <article className="gallery">
+                <a href="https://open.spotify.com/album/1UYsqqOikff3gISzTL3X4g?si=oGYJxxVLQ2GFT9z83gm0IA" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/remeridian" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/remeridian-2" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://youtu.be/1Q7S1q5Bn44" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/remeridian-ep/1547479785" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://music.amazon.com/albums/B08S7194F6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/remeridian-122335840/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+              </article>
+            </section>
+
+            <h4>Video:</h4>
+
+            <p>Equinoxical Promo #1:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9AJkPHccDrg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <section className="lyrics">
+              <h4>Lyrics:</h4>
+
+              <Accordion 
+                title="Equinoxical"
+                content={lyrics.r.ww}
+              />
+              <Accordion 
+                title="Sal Valotile"
+                content={lyrics.r.gd}
+              />
+              <Accordion 
+                title="Tumult, Etc." 
+                content={lyrics.r.r}
+              />
+              <Accordion 
+                title="Lazy Bones"
+                content={lyrics.r.ff}
+              />
+              <Accordion 
+                title="Equiluxical"
+                content={lyrics.r.ff}
+              />
+              <Accordion 
+                title="Long Way From Olympus"
+                content={lyrics.r.ff}
+              />
+            </section>  
+
+            <h4>Musicians:</h4>
+
+            <article className="gallery">
+              <p><strong>Jason M Harrison:</strong> vocals/guitar/bass/beats</p>
+              <p><strong>Jaret Harrison:</strong> bass/vocals</p>
+              <p><strong>Eric Blount:</strong> lead guitar</p>
+              <p><strong>Sam Berniard:</strong> background vocals on "Sal Valotile"</p>
+              <p><strong>Larry Hooper:</strong> co-writer on "Long Way From Olympus"</p>
+            </article>
+
+            <h4>Production:</h4>
+
+            <article className="gallery">
+              <p><strong>Recorded at:</strong> Pendragon Press - Austin, TX</p>
+              <p><strong>Engineered by:</strong> Jason M Harrison</p>
+            </article>
+
+            <h4>Artwork:</h4>
+            <article className="gallery">
+              <p><strong>Background artwork by:</strong> <a target="_blank" href="https://www.instagram.com/spencerjtullos/" alt="The artist, Spencer Tullos, on Instagram">Spencer Tullos</a></p>
+            </article>
+          </article>
+
+          <article className="content-panel remeridian" id="remeridian"> 
             <h3>Remeridian</h3>
             
             <section className="album-info">
@@ -80,6 +163,7 @@ class MainStage extends Component {
 
             <h4>Video:</h4>
 
+            <p>Entire "Remeridian":</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/1Q7S1q5Bn44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <section className="lyrics">
@@ -153,8 +237,10 @@ class MainStage extends Component {
 
             <section className="videos">
               <h4>Video:</h4>
+              <p>Entire "Atlassian Breaks":</p>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/kN6qfuCQ-50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+              <p>"Men of the Cloth" - Live - August 28th, 2019:</p>
               <iframe 
                 title="Grand Ephemeris live video - Performance of Men of the Cloth"
                 width="560" 
@@ -237,6 +323,8 @@ class MainStage extends Component {
 
             <section className="videos">
               <h4>Video:</h4>
+
+              <p>Video for "Less Superstitious":</p>
               <iframe 
                 title="Less Superstitious from Votive Viscera" 
                 src="https://player.vimeo.com/video/111038257" 
@@ -247,6 +335,7 @@ class MainStage extends Component {
                 allowFullScreen>
               </iframe>
 
+              <p>Entire "Votive Viscera":</p>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh_Vur2OTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
 
