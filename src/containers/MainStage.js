@@ -110,6 +110,7 @@ class MainStage extends Component {
                 title="Long Way From Olympus"
                 content={lyrics.r.ff}
               />
+              <p>Audio sample in "Long Way From Olympus" taken from Rous, Emma, Elsie Baker, and C. F. Abdy Williams. Hymn to Apollo. 1912. Audio. Retrieved from the Library of Congress.</p>
             </section>  
 
             <h4>Musicians:</h4>
