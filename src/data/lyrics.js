@@ -13,10 +13,12 @@ import tlp from './the-latent-psychic';
 import ww from './westheimer-waltz';
 import ff from './force-fields';
 import nox from './equinoxical';
+import sv from './sal-valotile';
 
 const lyrics = {
     equi: {
         nox,
+        sv,
     },
 	r: {
     ww,
