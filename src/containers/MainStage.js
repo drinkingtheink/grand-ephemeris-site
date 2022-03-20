@@ -58,19 +58,18 @@ class MainStage extends Component {
             <section className="album-info">
               <span>Released March 20th 2022</span>
             </section>
-
-            <iframe title="Equinoxical - SoundCloud" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1191576760&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe width="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe><div><a href="https://soundcloud.com/grandephemeris" title="Grand Ephemeris" target="_blank">Grand Ephemeris</a> · <a href="https://soundcloud.com/grandephemeris/sets/equinoxical" title="Equinoxical" target="_blank">Equinoxical</a></div>
 
             <h4>Bandcamp</h4>
-            <iframe title="Equinoxical - Bandcamp" className="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=3356015452/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/remeridian-2">Remeridian by Grand Ephemeris</a></iframe>
+            <iframe width="100%" height="120" src="https://bandcamp.com/EmbeddedPlayer/album=26499060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/equinoxical">Equinoxical by Grand Ephemeris</a></iframe>
 
             <section className="stream">
               <h4>Stream:</h4>
               
               <article className="gallery">
-                <a href="https://open.spotify.com/album/1UYsqqOikff3gISzTL3X4g?si=oGYJxxVLQ2GFT9z83gm0IA" target="_blank" rel="noopener noreferrer">Spotify</a>
-                <a href="https://soundcloud.com/grandephemeris/sets/remeridian" target="_blank" rel="noopener noreferrer">SoundCloud</a>
-                <a href="https://grandephemeris.bandcamp.com/album/remeridian-2" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://open.spotify.com/album/4ucAglG0p1tLyOlKxU659T?si=Nj4vuP3fSpSCwQkvoWNpCw" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/equinoxical" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/equinoxical" target="_blank" rel="noopener noreferrer">Bandcamp</a>
                 <a href="https://youtu.be/1Q7S1q5Bn44" target="_blank" rel="noopener noreferrer">YouTube</a>
                 <a href="https://music.apple.com/us/album/remeridian-ep/1547479785" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://music.amazon.com/albums/B08S7194F6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US" target="_blank" rel="noopener noreferrer">Amazon Music</a>
