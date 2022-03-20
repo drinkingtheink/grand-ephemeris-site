@@ -12,8 +12,12 @@ import me from './my-education';
 import tlp from './the-latent-psychic';
 import ww from './westheimer-waltz';
 import ff from './force-fields';
+import nox from './equinoxical';
 
 const lyrics = {
+    equi: {
+        nox,
+    },
 	r: {
     ww,
     gd: '"...to the East, we see an extremely bright object, I believe it\'s too bright to be a planet, it\'s North of Orion, about..." - NASA Gemini Expedition (1966)',
