@@ -14,11 +14,13 @@ import ww from './westheimer-waltz';
 import ff from './force-fields';
 import nox from './equinoxical';
 import sv from './sal-valotile';
+import te from './tumult-etc';
 
 const lyrics = {
     equi: {
         nox,
         sv,
+        te,
     },
 	r: {
     ww,

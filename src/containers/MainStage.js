@@ -98,7 +98,7 @@ class MainStage extends Component {
               />
               <Accordion 
                 title="Tumult, Etc." 
-                content={lyrics.r.r}
+                content={lyrics.equi.te}
               />
               <Accordion 
                 title="Lazy Bones"
