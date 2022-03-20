@@ -16,6 +16,7 @@ import nox from './equinoxical';
 import sv from './sal-valotile';
 import te from './tumult-etc';
 import lb from './lazy-bones';
+import lux from './equiluxical';
 
 const lyrics = {
     equi: {
@@ -23,6 +24,7 @@ const lyrics = {
         sv,
         te,
         lb,
+        lux,
     },
 	r: {
     ww,

@@ -106,7 +106,7 @@ class MainStage extends Component {
               />
               <Accordion 
                 title="Equiluxical"
-                content={lyrics.r.ff}
+                content={lyrics.equi.lux}
               />
               <Accordion 
                 title="Long Way From Olympus"
