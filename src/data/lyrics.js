@@ -15,12 +15,14 @@ import ff from './force-fields';
 import nox from './equinoxical';
 import sv from './sal-valotile';
 import te from './tumult-etc';
+import lb from './lazy-bones';
 
 const lyrics = {
     equi: {
         nox,
         sv,
         te,
+        lb,
     },
 	r: {
     ww,
