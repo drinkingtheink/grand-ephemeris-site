@@ -17,6 +17,7 @@ import sv from './sal-valotile';
 import te from './tumult-etc';
 import lb from './lazy-bones';
 import lux from './equiluxical';
+import lwfo from './long-way-from-olympus';
 
 const lyrics = {
     equi: {
@@ -25,6 +26,7 @@ const lyrics = {
         te,
         lb,
         lux,
+        lwfo,
     },
 	r: {
     ww,
