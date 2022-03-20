@@ -71,7 +71,7 @@ class MainStage extends Component {
                 <a href="https://open.spotify.com/album/4ucAglG0p1tLyOlKxU659T?si=Nj4vuP3fSpSCwQkvoWNpCw" target="_blank" rel="noopener noreferrer">Spotify</a>
                 <a href="https://soundcloud.com/grandephemeris/sets/equinoxical" target="_blank" rel="noopener noreferrer">SoundCloud</a>
                 <a href="https://grandephemeris.bandcamp.com/album/equinoxical" target="_blank" rel="noopener noreferrer">Bandcamp</a>
-                {/* <a href="https://youtu.be/1Q7S1q5Bn44" target="_blank" rel="noopener noreferrer">YouTube</a> */}
+                <a href="https://youtu.be/stcKEPbJNQI" target="_blank" rel="noopener noreferrer">YouTube</a>
                 <a href="https://music.apple.com/us/album/equinoxical-ep/1613971647" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://amazon.com/music/player/albums/B09VCM9X93?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_e3ylpoqbtOgPTJExPloPsW1Yv" target="_blank" rel="noopener noreferrer">Amazon Music</a>
                 <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/equinoxical-162128490/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
