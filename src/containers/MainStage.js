@@ -118,7 +118,7 @@ class MainStage extends Component {
 
             <article className="gallery">
               <p><strong>Jason M Harrison:</strong> vocals/guitar/bass/beats</p>
-              <p><strong>Jaret Harrison:</strong> bass/vocals</p>
+              <p><strong>Jaret Harrison:</strong> bass/guitar/vocals</p>
               <p><strong>Eric Blount:</strong> lead guitar</p>
               <p><strong>Sam Berniard:</strong> background vocals on "Sal Valotile"</p>
               <p><strong>Larry Hooper:</strong> co-writer on "Long Way From Olympus"</p>
