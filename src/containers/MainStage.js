@@ -31,7 +31,7 @@ class MainStage extends Component {
         <section className="left-panel attribution">
           <GELogo />
            <h3 className="position-display">
-             <span>λo:</span> <p class="dash-val">{ state.x }°</p>  <span class="symbol">ϕo:</span> <p class="dash-val">{ state.y }°</p>
+             <span>λo:</span> <p className="dash-val">{ state.x }°</p>  <span className="symbol">ϕo:</span> <p className="dash-val">{ state.y }°</p>
            </h3>
 
            <p className="ge-desc-quote">Psychedelia/Americana emanating from Austin, TX</p>
@@ -59,7 +59,7 @@ class MainStage extends Component {
               <span>Released March 20th 2022</span>
             </section>
             
-            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
 
             <h4>Bandcamp</h4>
             <iframe width="100%" height="120" src="https://bandcamp.com/EmbeddedPlayer/album=26499060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/equinoxical">Equinoxical by Grand Ephemeris</a></iframe>
@@ -80,10 +80,10 @@ class MainStage extends Component {
 
             <h4>Video:</h4>
             <p>Long Way From Olympus:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4v62x_t-3mw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4v62x_t-3mw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
             <p>Equinoxical Promo #1:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/9AJkPHccDrg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9AJkPHccDrg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
@@ -102,7 +102,7 @@ class MainStage extends Component {
               />
               <Accordion 
                 title="Lazy Bones"
-                content={lyrics.r.ff}
+                content={lyrics.equi.lb}
               />
               <Accordion 
                 title="Equiluxical"
@@ -167,7 +167,7 @@ class MainStage extends Component {
             <h4>Video:</h4>
 
             <p>Entire "Remeridian":</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Q7S1q5Bn44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Q7S1q5Bn44" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
@@ -241,7 +241,7 @@ class MainStage extends Component {
             <section className="videos">
               <h4>Video:</h4>
               <p>Entire "Atlassian Breaks":</p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/kN6qfuCQ-50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/kN6qfuCQ-50" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
               <p>"Men of the Cloth" - Live - August 28th, 2019:</p>
               <iframe 
@@ -339,7 +339,7 @@ class MainStage extends Component {
               </iframe>
 
               <p>Entire "Votive Viscera":</p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh_Vur2OTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh_Vur2OTA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </section>
 
             <section className="lyrics">
