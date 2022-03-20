@@ -59,10 +59,10 @@ class MainStage extends Component {
               <span>Released March 20th 2022</span>
             </section>
             
-            <iframe width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameBorder="0" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
 
             <h4>Bandcamp</h4>
-            <iframe width="100%" height="120" src="https://bandcamp.com/EmbeddedPlayer/album=26499060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/equinoxical">Equinoxical by Grand Ephemeris</a></iframe>
+            <iframe width="100%" frameBorder="0" height="120" src="https://bandcamp.com/EmbeddedPlayer/album=26499060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/equinoxical">Equinoxical by Grand Ephemeris</a></iframe>
 
             <section className="stream">
               <h4>Stream:</h4>
