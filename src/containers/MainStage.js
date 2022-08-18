@@ -54,6 +54,7 @@ class MainStage extends Component {
             <section className="quick-links-wrapper gallery">
               <a href="https://open.spotify.com/artist/3f6p4SQJXhJGWdPHL8NoKF?si=e_OrzP9sQsKP_7DV1TwHMw" target="_blank" rel="noopener noreferrer" alt="Find us on Spotify">Spotify</a>
               <a href="https://www.youtube.com/channel/UCq4djdWj45kvLQKFduslQ4g/videos" target="_blank" rel="noopener noreferrer" alt="Find us on YouTube">YouTube</a>
+              <a href="https://grandephemeris.bandcamp.com/" target="_blank" rel="noopener noreferrer" alt="Find us on Bandcamp">Bandcamp</a>
               <a href="https://music.apple.com/us/artist/grand-ephemeris/904517178" target="_blank" rel="noopener noreferrer" alt="Find us on Apple Music">Apple Music</a>
             </section>
           </article>   
