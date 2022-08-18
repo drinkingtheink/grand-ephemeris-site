@@ -146,7 +146,7 @@ $trans-bg: rgba(black, .7);
 
     @media screen and (max-width: $small-screen) {
     	max-width: 100%;
-	}
+	  }
 
     h3 {
       margin: 0 0 .5em 0;
@@ -225,12 +225,12 @@ $trans-bg: rgba(black, .7);
     color: white;
     
     @media screen and (max-width: $very-small-screen) {
-		width: 100%;
-	}
+	  	width: 100%;
+	  }
   }
 }
 
-.stream a {
+@mixin btn {
   padding: 1em 1.5em;
   margin: 0 .5rem .5rem 0;
   text-align: center;
@@ -249,6 +249,10 @@ $trans-bg: rgba(black, .7);
   @media screen and (max-width: $very-small-screen) {
   	display: block;
   }
+}
+
+.stream a {
+  @include btn;
 }
 
 .lyrics {
@@ -307,4 +311,14 @@ $trans-bg: rgba(black, .7);
 
 .bandcamp-embed {
   border: 0; width: 100%; height: 120px;
+}
+
+.quick-links-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  a {
+    @include btn;
+  }
 }

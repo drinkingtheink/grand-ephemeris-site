@@ -48,7 +48,15 @@ class MainStage extends Component {
             <span className="ge-script">Grand Ephemeris</span> is a music collective from Austin, TX. Led by brothers Jason  and Joel Harrison, they explore the notions of Man vs Creator/Human vs Nature/Want vs Need through their Americana-tinged telescope accompanied by slide guitar, banjo, electronica, keys and raucous rhythms.
                   
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
-          </p>  */}      
+          </p>  */}
+
+          <article className="content-panel quick-links" id="quick-links">
+            <section className="quick-links-wrapper gallery">
+              <a href="https://open.spotify.com/artist/3f6p4SQJXhJGWdPHL8NoKF?si=e_OrzP9sQsKP_7DV1TwHMw" target="_blank" rel="noopener noreferrer" alt="Find us on Spotify">Spotify</a>
+              <a href="https://www.youtube.com/channel/UCq4djdWj45kvLQKFduslQ4g/videos" target="_blank" rel="noopener noreferrer" alt="Find us on YouTube">YouTube</a>
+              <a href="https://music.apple.com/us/artist/grand-ephemeris/904517178" target="_blank" rel="noopener noreferrer" alt="Find us on Apple Music">Apple Music</a>
+            </section>
+          </article>   
 
           <article className="content-panel equinoxical" id="equinoxical"> 
             <span className="new-release-badge">Latest Release</span>
@@ -59,10 +67,10 @@ class MainStage extends Component {
               <span>Released March 20th 2022</span>
             </section>
             
-            <iframe width="100%" height="300" scrolling="no" frameBorder="0" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+            <iframe title="Equinoxical on SoundCloud" width="100%" height="300" scrolling="no" frameBorder="0" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
 
             <h4>Bandcamp</h4>
-            <iframe width="100%" frameBorder="0" height="120" src="https://bandcamp.com/EmbeddedPlayer/album=26499060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/equinoxical">Equinoxical by Grand Ephemeris</a></iframe>
+            <iframe title="Equinoxical on Bandcamp" width="100%" frameBorder="0" height="120" src="https://bandcamp.com/EmbeddedPlayer/album=26499060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/equinoxical">Equinoxical by Grand Ephemeris</a></iframe>
 
             <section className="stream">
               <h4>Stream:</h4>
@@ -209,7 +217,7 @@ class MainStage extends Component {
 
             <h4>Artwork:</h4>
             <article className="gallery">
-              <p><strong>Background artwork by:</strong> YuanChuan / <a target="_blank" href="https://twitter.com/yuanchuan23" alt="The artist on Twitter">@yuanchuan23</a></p>
+              <p><strong>Background artwork by:</strong> YuanChuan / <a target="_blank" href="https://twitter.com/yuanchuan23" rel="noopener noreferrer" alt="The artist on Twitter">@yuanchuan23</a></p>
             </article>
           </article>
 
@@ -341,7 +349,7 @@ class MainStage extends Component {
               </iframe>
 
               <p>Entire "Votive Viscera":</p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh_Vur2OTA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe title="Votive Viscera Album" width="560" height="315" src="https://www.youtube.com/embed/CGh_Vur2OTA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </section>
 
             <section className="lyrics">
