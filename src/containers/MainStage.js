@@ -156,8 +156,6 @@ class MainStage extends Component {
           </article>
 
           <article className="content-panel equinoxical" id="equinoxical"> 
-            <span className="new-release-badge">Latest Release</span>
-
             <h3>Equinoxical</h3>
             
             <section className="album-info">
