@@ -97,23 +97,23 @@ class MainStage extends Component {
 
               <Accordion 
                 title="Color Math"
-                content={lyrics.equi.nox}
+                content={lyrics.cs.cm}
               />
               <Accordion 
                 title="Saint Juan from Capistrano (Where Many a Star)"
-                content={lyrics.equi.sv}
+                content={lyrics.cs.sj}
               />
               <Accordion 
                 title="La Boda de Los Lobos" 
-                content={lyrics.equi.te}
+                content={lyrics.cs.labo}
               />
               <Accordion 
                 title="Mare Imbrium"
-                content={lyrics.equi.lb}
+                content={lyrics.cs.mi}
               />
               <Accordion 
                 title="The Crucibles of Calcasieu"
-                content={lyrics.equi.lux}
+                content={lyrics.cs.cc}
               />
               <Accordion 
                 title="Protopseudoscientist"

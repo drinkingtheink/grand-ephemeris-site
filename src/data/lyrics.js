@@ -20,15 +20,15 @@ import lux from './equiluxical';
 import lwfo from './long-way-from-olympus';
 import cm from './color-math';
 import sj from './saint-juan';
-import lb from './la-boda';
-import mi from './lmare';
+import labo from './la-boda';
+import mi from './mare';
 import cc from './cofc';
 
 const lyrics = {
     cs: {
         cm,
         sj,
-        lb,
+        labo,
         mi,
         cc,
     },
