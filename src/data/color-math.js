@@ -1,0 +1,5 @@
+/* eslint no-useless-escape: 0 */
+
+const cm = "Red and white\nBut by the grace of your eyes\nImagine if it never blessed a sunrise\nNever blazed a neon sign\nUpside down\nFlipped around by the wheel of your mind\nIn less than the blink of an eye\nYou don\'t even realize\nAnd I focus and I filter and I render\nAnd I render and I filter and I remember\nRed Green Blue\nFrom these 3 unlimited hues\nAll conspire to show the world to you\nMislead in ways beneath our view\nProportion and line\nSo very easily contrived\n\nReady to believe your lies\n\nBeauty, behold my eye\n\nIt\'s how I behold you\n\nHow I long term store you\n\nHow the recall is optimized\nThe image is rasterized\n\nThe photons\' one mission\n\nTo reflect off your visage\n\nThe image it saturates\n\nThe hues all fall into place\n\nIt\'s how I behold you\n\nHow I long term store you"
+
+export default cm;

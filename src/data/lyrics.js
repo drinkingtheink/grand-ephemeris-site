@@ -18,8 +18,12 @@ import te from './tumult-etc';
 import lb from './lazy-bones';
 import lux from './equiluxical';
 import lwfo from './long-way-from-olympus';
+import cm from './color-math';
 
 const lyrics = {
+    cs: {
+        cm,
+    },
     equi: {
         nox,
         sv,
