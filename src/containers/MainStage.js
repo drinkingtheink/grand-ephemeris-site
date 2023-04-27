@@ -58,7 +58,100 @@ class MainStage extends Component {
               <a href="https://soundcloud.com/grandephemeris" target="_blank" rel="noopener noreferrer" alt="Find us on SoundCloud">SoundCloud</a>
               <a href="https://music.apple.com/us/artist/grand-ephemeris/904517178" target="_blank" rel="noopener noreferrer" alt="Find us on Apple Music">Apple Music</a>
             </section>
-          </article>   
+          </article>
+
+          <article className="content-panel continuum-swings" id="continuum-swings"> 
+            <span className="new-release-badge">Latest Release</span>
+
+            <h3>Continuum Swings</h3>
+            
+            <section className="album-info">
+              <span>Released April 28th 2023</span>
+            </section>
+            
+            <iframe title="Continuum Swings on SoundCloud" width="100%" height="300" scrolling="no" frameBorder="0" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+
+            <h4>Bandcamp</h4>
+            <iframe title="Continuum Swings on Bandcamp" width="100%" frameBorder="0" height="120" src="https://bandcamp.com/EmbeddedPlayer/album=26499060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/equinoxical">Equinoxical by Grand Ephemeris</a></iframe>
+
+            <section className="stream">
+              <h4>Stream:</h4>
+              
+              <article className="gallery">
+                <a href="https://open.spotify.com/album/4ucAglG0p1tLyOlKxU659T?si=Nj4vuP3fSpSCwQkvoWNpCw" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/equinoxical" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/equinoxical" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://youtube.com/playlist?list=OLAK5uy_mPfQrmh-j-C67ZKOxXbqPYL09PgOy2o-I" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/equinoxical-ep/1613971647" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://amazon.com/music/player/albums/B09VCM9X93?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_e3ylpoqbtOgPTJExPloPsW1Yv" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/equinoxical-162128490/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+              </article>
+            </section>
+
+            {/* <h4>Video:</h4>
+            <p>Equinoxical:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NWO1GDqIJzU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+            <p>Tumult, Etc.:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UivzPJxZSFQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+            <p>Long Way From Olympus:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4v62x_t-3mw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+            <p>Equinoxical Promo #1:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9AJkPHccDrg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+
+            <section className="lyrics">
+              <h4>Lyrics:</h4>
+
+              <Accordion 
+                title="Equinoxical"
+                content={lyrics.equi.nox}
+              />
+              <Accordion 
+                title="Sal Valotile"
+                content={lyrics.equi.sv}
+              />
+              <Accordion 
+                title="Tumult, Etc." 
+                content={lyrics.equi.te}
+              />
+              <Accordion 
+                title="Lazy Bones"
+                content={lyrics.equi.lb}
+              />
+              <Accordion 
+                title="Equiluxical"
+                content={lyrics.equi.lux}
+              />
+              <Accordion 
+                title="Long Way From Olympus"
+                content={lyrics.equi.lwfo}
+              />
+            </section>  
+
+            <h4>Musicians:</h4>
+
+            <article className="gallery">
+              <p><strong>Jason M Harrison:</strong> vocals/guitar/bass/beats</p>
+              <p><strong>Jaret Harrison:</strong> bass/guitar/vocals</p>
+              <p><strong>Eric Blount:</strong> lead guitar</p>
+              <p><strong>Sam Berniard:</strong> background vocals on "Sal Valotile"</p>
+              <p><strong>Larry Hooper:</strong> co-writer on "Long Way From Olympus"</p>
+            </article>
+
+            <h4>Production:</h4>
+
+            <article className="gallery">
+              <p><strong>Recorded at:</strong> Pendragon Press - Austin, TX</p>
+              <p><strong>Engineered by:</strong> Jason M Harrison</p>
+            </article>
+
+            <h4>Artwork:</h4>
+            <article className="gallery">
+              <p><strong>Background artwork by:</strong> <a target="_blank" href="https://www.instagram.com/spencerjtullos/" alt="The artist, Spencer Tullos, on Instagram">Spencer Tullos</a></p>
+            </article>
+          </article>
 
           <article className="content-panel equinoxical" id="equinoxical"> 
             <span className="new-release-badge">Latest Release</span>
