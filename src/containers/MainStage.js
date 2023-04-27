@@ -105,27 +105,37 @@ class MainStage extends Component {
               <h4>Lyrics:</h4>
 
               <Accordion 
-                title="Equinoxical"
+                title="Color Math"
                 content={lyrics.equi.nox}
               />
               <Accordion 
-                title="Sal Valotile"
+                title="Saint Juan from Capistrano (Where Many a Star)"
                 content={lyrics.equi.sv}
               />
               <Accordion 
-                title="Tumult, Etc." 
+                title="La Boda de Los Lobos" 
                 content={lyrics.equi.te}
               />
               <Accordion 
-                title="Lazy Bones"
+                title="Mare Imbrium"
                 content={lyrics.equi.lb}
               />
               <Accordion 
-                title="Equiluxical"
+                title="The Crucibles of Calcasieu"
                 content={lyrics.equi.lux}
               />
               <Accordion 
-                title="Long Way From Olympus"
+                title="Protopseudoscientist"
+                content={lyrics.equi.lwfo}
+              />
+
+              <Accordion 
+                title="Odd Fauna"
+                content={lyrics.equi.lwfo}
+              />
+
+              <Accordion 
+                title="A Minor Eddy in the Vaster Gyre"
                 content={lyrics.equi.lwfo}
               />
             </section>  
@@ -133,11 +143,12 @@ class MainStage extends Component {
             <h4>Musicians:</h4>
 
             <article className="gallery">
-              <p><strong>Jason M Harrison:</strong> vocals/guitar/bass/beats</p>
-              <p><strong>Jaret Harrison:</strong> bass/guitar/vocals</p>
-              <p><strong>Eric Blount:</strong> lead guitar</p>
-              <p><strong>Sam Berniard:</strong> background vocals on "Sal Valotile"</p>
-              <p><strong>Larry Hooper:</strong> co-writer on "Long Way From Olympus"</p>
+              <p><strong>Jason M Harrison:</strong> vocals/guitar/beats/keys/synth</p>
+              <p><strong>Jaret Harrison:</strong> bass/guitar</p>
+              <p><strong>Eric Blount:</strong> lead guitar on "Color Math"</p>
+              <p><strong>Jeremy Harmon:</strong> trumpet on "Saint Juan from Capistrano (Where Many a Star), saxophone on "Odd Fauna"</p>
+              <p><strong>Alex Garcia:</strong> vocals on "La Boda de Los Lobos"</p>
+              <p><strong>Josh Chambers:</strong> lead guitar on "A Minor Eddy in the Vaster Gyre"</p>
             </article>
 
             <h4>Production:</h4>
