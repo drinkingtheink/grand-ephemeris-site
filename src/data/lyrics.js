@@ -21,12 +21,14 @@ import lwfo from './long-way-from-olympus';
 import cm from './color-math';
 import sj from './saint-juan';
 import lb from './la-boda';
+import mi from './lmare';
 
 const lyrics = {
     cs: {
         cm,
         sj,
         lb,
+        mi,
     },
     equi: {
         nox,
