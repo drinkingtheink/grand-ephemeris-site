@@ -22,6 +22,7 @@ import cm from './color-math';
 import sj from './saint-juan';
 import lb from './la-boda';
 import mi from './lmare';
+import cc from './cofc';
 
 const lyrics = {
     cs: {
@@ -29,6 +30,7 @@ const lyrics = {
         sj,
         lb,
         mi,
+        cc,
     },
     equi: {
         nox,
