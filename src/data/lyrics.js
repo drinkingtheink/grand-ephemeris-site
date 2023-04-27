@@ -19,6 +19,7 @@ import lb from './lazy-bones';
 import lux from './equiluxical';
 import lwfo from './long-way-from-olympus';
 import cm from './color-math';
+import sj from './saint-juan';
 
 const lyrics = {
     cs: {
