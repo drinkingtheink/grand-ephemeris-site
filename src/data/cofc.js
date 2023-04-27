@@ -1,0 +1,5 @@
+/* eslint no-useless-escape: 0 */
+
+const cc = "\nIn a backwoods shack off Desiar\nYou touched your hand to the back of an old John Deer\nThe movement and the sparks it mad\nWould never again be explained\nSo we set our course for Moon Lak\nIn your rush to experiment you must have spilled the tan\nThe belly of Bartholome\nWas laid out for the town's review\nFor the first time I really feel aliv\nYou said as we fled south down Hwy 16\nThe crucibles of Calcasie\nCouldn't match what he learned to do\nOn our trai\nOn our trac\nOn our scen\nOn a whi\nOn the back of a lot of bad decisions\n16 maybe les\nafter that much olde\nFriends right until the en\nWhich we met at the border\nAll the power in the world at the tip of his finger\nToo much too soon too young too fast too unstable"
+
+export default c;
