@@ -20,10 +20,13 @@ import lux from './equiluxical';
 import lwfo from './long-way-from-olympus';
 import cm from './color-math';
 import sj from './saint-juan';
+import lb from './la-boda';
 
 const lyrics = {
     cs: {
         cm,
+        sj,
+        lb,
     },
     equi: {
         nox,
