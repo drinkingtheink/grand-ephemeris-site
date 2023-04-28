@@ -263,7 +263,7 @@ class MainStage extends Component {
                 <a href="https://open.spotify.com/album/1UYsqqOikff3gISzTL3X4g?si=oGYJxxVLQ2GFT9z83gm0IA" target="_blank" rel="noopener noreferrer">Spotify</a>
                 <a href="https://soundcloud.com/grandephemeris/sets/remeridian" target="_blank" rel="noopener noreferrer">SoundCloud</a>
                 <a href="https://grandephemeris.bandcamp.com/album/remeridian-2" target="_blank" rel="noopener noreferrer">Bandcamp</a>
-                <a href="https://youtu.be/1Q7S1q5Bn44" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://www.youtube.com/watch?v=TVceP1xTOMA&list=OLAK5uy_k55eJ0FSpypcTSuhmVZClhMR3YfC25VzQ" target="_blank" rel="noopener noreferrer">YouTube</a>
                 <a href="https://music.apple.com/us/album/remeridian-ep/1547479785" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://music.amazon.com/albums/B08S7194F6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US" target="_blank" rel="noopener noreferrer">Amazon Music</a>
                 <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/remeridian-122335840/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
