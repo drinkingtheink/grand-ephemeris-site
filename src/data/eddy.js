@@ -1,0 +1,5 @@
+/* eslint no-useless-escape: 0 */
+
+const mevg = "AIN'T THAT ENOUGH?\nTHAT'S FAR TOO MUCH!\nIT WAKES ME UP\n\n\nAs far as eyesores\nIt leaves a little something to be said\n\n\nFrom branches and briars \nThey make their many nests above my bed\n\n\nAND IT WAKES ME UP\nAll their preening and scratching around\n\n\nAND THEY FEED THEIR YOUNG\nSo I guess I've got to keep them safe and sound\n\n\nI'm not monster after all\nBut I could be...\n\n\nIT WAKES ME UP!\nAIN'T THAT ENOUGH?\n\n\nAs far as advice\nTake this little pearl here for a ride\n\n\nWe're no holy french horns\nWe're complicated fools and spies\n\n\nAIN'T THAT ENOUGH?\nTo be the end-all be-all prototype?\n\n\nTHAT'S FAR TOO MUCH!\n\n\nA minor eddy in the vaster gyre\n\n\nCuz I ain't nothing special\nBut I would be..."
+
+export default mevg;
