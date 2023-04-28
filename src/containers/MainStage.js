@@ -117,14 +117,12 @@ class MainStage extends Component {
               />
               <Accordion 
                 title="Protopseudoscientist"
-                content={lyrics.equi.lwfo}
+                content={lyrics.cs.proto}
               />
-
               <Accordion 
                 title="Odd Fauna"
                 content={lyrics.equi.lwfo}
               />
-
               <Accordion 
                 title="A Minor Eddy in the Vaster Gyre"
                 content={lyrics.equi.lwfo}

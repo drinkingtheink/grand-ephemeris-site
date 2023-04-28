@@ -23,6 +23,8 @@ import sj from './saint-juan';
 import labo from './la-boda';
 import mi from './mare';
 import cc from './cofc';
+import proto from './proto';
+import of from './odd-fauna';
 
 const lyrics = {
     cs: {
@@ -31,6 +33,8 @@ const lyrics = {
         labo,
         mi,
         cc,
+        proto,
+        of,
     },
     equi: {
         nox,
