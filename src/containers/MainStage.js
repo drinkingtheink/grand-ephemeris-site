@@ -78,13 +78,13 @@ class MainStage extends Component {
               <h4>Stream:</h4>
               
               <article className="gallery">
-                <a href="https://open.spotify.com/album/4ucAglG0p1tLyOlKxU659T?si=Nj4vuP3fSpSCwQkvoWNpCw" target="_blank" rel="noopener noreferrer">Spotify</a>
-                <a href="https://soundcloud.com/grandephemeris/sets/equinoxical" target="_blank" rel="noopener noreferrer">SoundCloud</a>
-                <a href="https://grandephemeris.bandcamp.com/album/equinoxical" target="_blank" rel="noopener noreferrer">Bandcamp</a>
-                <a href="https://youtube.com/playlist?list=OLAK5uy_mPfQrmh-j-C67ZKOxXbqPYL09PgOy2o-I" target="_blank" rel="noopener noreferrer">YouTube</a>
-                <a href="https://music.apple.com/us/album/equinoxical-ep/1613971647" target="_blank" rel="noopener noreferrer">iTunes</a>
-                <a href="https://amazon.com/music/player/albums/B09VCM9X93?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_e3ylpoqbtOgPTJExPloPsW1Yv" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/equinoxical-162128490/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+                <a href="https://open.spotify.com/album/1rnHsuzbqbqILoQPMhqNPO?si=HuACoq6tSKufBnwgSCA3ww" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/continuum-swings" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/continuum-swings" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://www.youtube.com/watch?v=TVceP1xTOMA" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/continuum-swings/1684366704" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://www.amazon.com/music/player/albums/B0C3F3LVHQ" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/continuum-swings-214334651/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
               </article>
             </section>
 
