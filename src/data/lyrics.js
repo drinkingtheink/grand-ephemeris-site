@@ -25,6 +25,7 @@ import mi from './mare';
 import cc from './cofc';
 import proto from './proto';
 import of from './odd-fauna';
+import mevg from './eddy';
 
 const lyrics = {
     cs: {
@@ -35,6 +36,7 @@ const lyrics = {
         cc,
         proto,
         of,
+        mevg,
     },
     equi: {
         nox,
