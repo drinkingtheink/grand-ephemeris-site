@@ -88,9 +88,9 @@ class MainStage extends Component {
               </article>
             </section>
 
-            {/* <h4>Video:</h4>
-            <p>Equinoxical:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/NWO1GDqIJzU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>*/}
+            <h4>Video:</h4>
+            <p>Continuum Swings:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TVceP1xTOMA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
