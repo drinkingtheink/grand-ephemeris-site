@@ -125,7 +125,7 @@ class MainStage extends Component {
               />
               <Accordion 
                 title="A Minor Eddy in the Vaster Gyre"
-                content={lyrics.equi.lwfo}
+                content={lyrics.cs.mevg}
               />
             </section>  
 
@@ -390,7 +390,7 @@ class MainStage extends Component {
                 <p><strong>Dalton Chamblee:</strong> bass/drums/keys</p>
                 <p><strong>Kyle Williams:</strong> keys</p>
                 <p><strong>Sam Berniard:</strong> guitar</p>
-                <p><strong>Joel Harrison:</strong> vocals</p>
+                <p><strong>Jaret Harrison:</strong> vocals</p>
               </article>
 
               <h4>Production:</h4>
@@ -490,7 +490,7 @@ class MainStage extends Component {
               
               <article className="gallery">
                 <p><strong>Jason M Harrison:</strong> vocals/guitar/percussion</p>
-                <p><strong>Joel Harrison:</strong> vocals/bass</p>
+                <p><strong>Jaret Harrison:</strong> vocals/bass</p>
                 <p><strong>Kyle Williams:</strong> keys</p>
                 <p><strong>Chad Gowan:</strong> drums</p>
                 <p><strong>Nathan Campbell:</strong> mandolin/slide guitar</p>
@@ -514,7 +514,7 @@ class MainStage extends Component {
 
           <article className="content-panel covers">
             <h3>About/Contact</h3>
-             <p>Grand Ephemeris is led by brothers Jason and Joel Harrison who ply their earthly trade in the fair city of Austin, TX. They are accompanied by many talented friends during this project. Please see album notes for who helped where.</p>
+             <p>Grand Ephemeris is led by brothers Jason and Jaret Harrison who ply their earthly trade in the fair city of Austin, TX. They are accompanied by many talented friends during this project. Please see album notes for who helped where.</p>
 
              {/* eslint no-script-url: 0 */}                
              <a className="ge-contact" href="javascript:void( window.open( 'https://form.jotform.com/42165746848163', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Contact Grand Ephemeris</a>
