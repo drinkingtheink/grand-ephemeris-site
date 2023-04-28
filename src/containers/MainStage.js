@@ -135,7 +135,7 @@ class MainStage extends Component {
               <p><strong>Jason M Harrison:</strong> vocals/guitar/beats/keys/synth</p>
               <p><strong>Jaret Harrison:</strong> bass/guitar</p>
               <p><strong>Eric Blount:</strong> lead guitar on "Color Math"</p>
-              <p><strong>Jeremy Harmon:</strong> trumpet on "Saint Juan from Capistrano (Where Many a Star)", saxophone on "Odd Fauna"</p>
+              <p><strong>Jeremy Harmon:</strong> trumpet on "Saint Juan from Capistrano (Where Many a Star)", saxophone and synth on "Odd Fauna"</p>
               <p><strong>Alex Garcia:</strong> vocals on "La Boda de Los Lobos"</p>
               <p><strong>Josh Chambers:</strong> lead guitar on "A Minor Eddy in the Vaster Gyre"</p>
             </article>
