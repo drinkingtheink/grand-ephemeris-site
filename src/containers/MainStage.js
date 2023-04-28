@@ -121,7 +121,7 @@ class MainStage extends Component {
               />
               <Accordion 
                 title="Odd Fauna"
-                content={lyrics.equi.lwfo}
+                content={lyrics.cs.of}
               />
               <Accordion 
                 title="A Minor Eddy in the Vaster Gyre"
