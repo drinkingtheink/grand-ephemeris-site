@@ -60,6 +60,15 @@ class MainStage extends Component {
             </section>
           </article>
 
+          <article className="content-panel quick-links" id="quick-links">
+            <h3>Video for "Color Math"</h3>
+            <section className="album-info">
+              <span>Out Today! - May 5th, 2023</span>
+            </section>
+
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/nUyXO-cMNc0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </article>
+
           <article className="content-panel continuum-swings" id="continuum-swings"> 
             <span className="new-release-badge">Latest Release</span>
 
@@ -89,6 +98,10 @@ class MainStage extends Component {
             </section>
 
             <h4>Video:</h4>
+
+            <p>Color Math</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nUyXO-cMNc0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
             <p>Continuum Swings:</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/TVceP1xTOMA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
