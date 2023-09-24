@@ -63,7 +63,7 @@ class MainStage extends Component {
           <article className="content-panel quick-links" id="quick-links">
             <h3>Video for "Color Math"</h3>
             <section className="album-info">
-              <span>Out Today! - May 5th, 2023</span>
+              <span>Released May 5th, 2023</span>
             </section>
 
             <iframe width="100%" height="450px" src="https://www.youtube.com/embed/nUyXO-cMNc0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -75,7 +75,7 @@ class MainStage extends Component {
             <h3>Continuum Swings</h3>
             
             <section className="album-info">
-              <span>Released April 28th 2023</span>
+              <span>Released April 28th, 2023</span>
             </section>
             
             <iframe title="Continuum Swings on SoundCloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1582192588&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -170,7 +170,7 @@ class MainStage extends Component {
             <h3>Equinoxical</h3>
             
             <section className="album-info">
-              <span>Released March 20th 2022</span>
+              <span>Released March 20th, 2022</span>
             </section>
             
             <iframe title="Equinoxical on SoundCloud" width="100%" height="300" scrolling="no" frameBorder="0" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1401761539&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
@@ -261,7 +261,7 @@ class MainStage extends Component {
             <h3>Remeridian</h3>
             
             <section className="album-info">
-              <span>Released December 31st 2020</span>
+              <span>Released December 31st, 2020</span>
             </section>
 
             <iframe title="Remeridian - SoundCloud" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1191576760&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -334,7 +334,7 @@ class MainStage extends Component {
             <h3>Atlassian Breaks</h3>
             
             <section className="album-info">
-              <span>Released August, 18th 2019</span>
+              <span>Released August 18th, 2019</span>
             </section>
 
             <iframe title="Atlassian Breaks" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/845039828&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -420,7 +420,7 @@ class MainStage extends Component {
             <h3>Votive Viscera</h3>
             
             <section className="album-info">
-              <span>Released August, 1st 2014</span>
+              <span>Released August 1st, 2014</span>
             </section>
 
             <iframe title="Votive Viscera" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/45125373&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>            
