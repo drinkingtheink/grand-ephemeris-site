@@ -61,6 +61,15 @@ class MainStage extends Component {
           </article>
 
           <article className="content-panel quick-links" id="quick-links">
+            <h3>Video for "La Boda de Los Lobos"</h3>
+            <section className="album-info">
+              <span>Released Oct 19th, 2023</span>
+            </section>
+
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/w1lyQni8WTk?si=I51rO1bIIx7cpvgo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </article>
+
+          <article className="content-panel quick-links" id="quick-links">
             <h3>Video for "Color Math"</h3>
             <section className="album-info">
               <span>Released May 5th, 2023</span>
