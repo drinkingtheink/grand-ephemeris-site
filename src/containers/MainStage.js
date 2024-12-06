@@ -61,6 +61,15 @@ class MainStage extends Component {
           </article>
 
           <article className="content-panel quick-links" id="quick-links">
+            <h3>Video for "Mare Imbrium"</h3>
+            <section className="album-info">
+              <span>Released Dec 6th, 2024</span>
+            </section>
+
+            <iframe width="100%" height="450px" src="https://youtu.be/4mAfnAQYW9w?si=7z0Iw6rlt-LxnQcI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </article>
+
+          <article className="content-panel quick-links" id="quick-links">
             <h3>Video for "Saint Juan From Capistrano (Where Many A Star)"</h3>
             <section className="album-info">
               <span>Released Feb 19th, 2024</span>
