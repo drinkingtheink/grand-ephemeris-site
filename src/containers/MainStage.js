@@ -70,6 +70,8 @@ class MainStage extends Component {
             </section>
                         
             <h4>Bandcamp</h4>
+
+            <iframe style="border: 0; width: 560px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe>
             
             <section className="stream">
               <h4>Stream:</h4>
