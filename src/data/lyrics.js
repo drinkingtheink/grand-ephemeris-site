@@ -32,6 +32,7 @@ const lyrics = {
         pys,
         ff,
         wh,
+        pe,
     },
     cs: {
         cm,
