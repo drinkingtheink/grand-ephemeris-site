@@ -68,11 +68,9 @@ class MainStage extends Component {
             <section className="album-info">
               <span>Released May 2nd, 2025</span>
             </section>
-            
-            <iframe title="Surface Recursive on SoundCloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1582192588&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            
+                        
             <h4>Bandcamp</h4>
-            <iframe title="Surface Recursive on Bandcamp" width="100%" height="120" frameborder="0" src="https://bandcamp.com/EmbeddedPlayer/album=322058797/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/continuum-swings">Continuum Swings by Grand Ephemeris</a></iframe>
+            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe>
             
             <section className="stream">
               <h4>Stream:</h4>
@@ -90,7 +88,7 @@ class MainStage extends Component {
             <h4>Video:</h4>
 
             <p>Pick Your Socket++:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nUyXO-cMNc0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzYqMHwgdsk?si=d6vPIt6_QoQHd2Ii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
