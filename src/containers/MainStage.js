@@ -88,7 +88,7 @@ class MainStage extends Component {
             <h4>Video:</h4>
 
             <p>Pick Your Socket++:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzYqMHwgdsk?si=d6vPIt6_QoQHd2Ii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/rzYqMHwgdsk?si=d6vPIt6_QoQHd2Ii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
 
             <section className="lyrics">
               <h4>Lyrics:</h4>
