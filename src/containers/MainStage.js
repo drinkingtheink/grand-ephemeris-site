@@ -97,7 +97,6 @@ class MainStage extends Component {
           </article>
 
           <article className="content-panel continuum-swings" id="continuum-swings"> 
-            <span className="new-release-badge">Latest Release</span>
 
             <h3>Continuum Swings</h3>
             
