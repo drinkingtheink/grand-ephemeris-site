@@ -78,13 +78,12 @@ class MainStage extends Component {
               <h4>Stream:</h4>
               
               <article className="gallery">
-                <a href="https://open.spotify.com/album/1rnHsuzbqbqILoQPMhqNPO?si=HuACoq6tSKufBnwgSCA3ww" target="_blank" rel="noopener noreferrer">Spotify</a>
-                <a href="https://soundcloud.com/grandephemeris/sets/continuum-swings" target="_blank" rel="noopener noreferrer">SoundCloud</a>
-                <a href="https://grandephemeris.bandcamp.com/album/continuum-swings" target="_blank" rel="noopener noreferrer">Bandcamp</a>
-                <a href="https://www.youtube.com/watch?v=TVceP1xTOMA" target="_blank" rel="noopener noreferrer">YouTube</a>
-                <a href="https://music.apple.com/us/album/continuum-swings/1684366704" target="_blank" rel="noopener noreferrer">iTunes</a>
-                <a href="https://www.amazon.com/music/player/albums/B0C3F3LVHQ" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/continuum-swings-214334651/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+                <a href="https://open.spotify.com/album/0JVSrBnC6K6aG3wkrLVCyJ?si=L_KzHfi6Qm-FBRKfoPNAyQ" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/surface-recursive" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/surface-recursive" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://music.youtube.com/playlist?list=OLAK5uy_kka5mVejFnUT2VSgejor5-MJOth3PTGRQ" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/surface-recursive-ep/1808447249" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://music.amazon.in/albums/B0F4RQGZ6G" target="_blank" rel="noopener noreferrer">Amazon Music</a>
               </article>
             </section>
 
@@ -213,7 +212,6 @@ class MainStage extends Component {
                 <a href="https://www.youtube.com/watch?v=TVceP1xTOMA" target="_blank" rel="noopener noreferrer">YouTube</a>
                 <a href="https://music.apple.com/us/album/continuum-swings/1684366704" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://www.amazon.com/music/player/albums/B0C3F3LVHQ" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/continuum-swings-214334651/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
               </article>
             </section>
 
@@ -308,7 +306,6 @@ class MainStage extends Component {
                 <a href="https://youtube.com/playlist?list=OLAK5uy_mPfQrmh-j-C67ZKOxXbqPYL09PgOy2o-I" target="_blank" rel="noopener noreferrer">YouTube</a>
                 <a href="https://music.apple.com/us/album/equinoxical-ep/1613971647" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://amazon.com/music/player/albums/B09VCM9X93?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_e3ylpoqbtOgPTJExPloPsW1Yv" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/equinoxical-162128490/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
               </article>
             </section>
 
@@ -399,7 +396,6 @@ class MainStage extends Component {
                 <a href="https://www.youtube.com/watch?v=TVceP1xTOMA&list=OLAK5uy_k55eJ0FSpypcTSuhmVZClhMR3YfC25VzQ" target="_blank" rel="noopener noreferrer">YouTube</a>
                 <a href="https://music.apple.com/us/album/remeridian-ep/1547479785" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://music.amazon.com/albums/B08S7194F6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/remeridian-122335840/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
               </article>
             </section>
 
@@ -473,7 +469,6 @@ class MainStage extends Component {
                 <a href="https://music.apple.com/us/album/atlassian-breaks-ep/1476154940" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://play.google.com/store/music/album/Grand_Ephemeris_Atlassian_Breaks?id=Bbrtynzam6pyiakd4tet6obmkou&hl=en" target="_blank" rel="noopener noreferrer">Google Play</a>
                 <a href="https://www.amazon.com/dp/B07WH8LCZ1/ref=sr_1_1&qid=1566132499&s=dmusic&search-type=ss&sr=1-1" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/atlassian-breaks-78069011/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
               </article>
             </section>    
 
@@ -559,7 +554,6 @@ class MainStage extends Component {
                 <a href="https://music.apple.com/gb/album/votive-viscera/904517173" target="_blank" rel="noopener noreferrer">iTunes</a>
                 <a href="https://play.google.com/store/music/album?id=Bt7mxmuowerd6z4bp4ukiarvw6a&tid=song-Twf4szdzioobw5uxndcsqhiwf7e&hl=en" target="_blank" rel="noopener noreferrer">Google Play</a>
                 <a href="https://music.amazon.com/albums/B07QW54XBJ" target="_blank" rel="noopener noreferrer">Amazon Music</a>
-                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/votive-viscera-72405128/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
               </article>
             </section>  
 
