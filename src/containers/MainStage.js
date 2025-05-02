@@ -77,8 +77,8 @@ class MainStage extends Component {
             <section className="album-info">
               <span>Released May 2nd, 2025</span>
             </section>
-                        
-            <h4>Bandcamp</h4>
+            
+            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1977748824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/grandephemeris" title="Grand Ephemeris" target="_blank" style="color: #cccccc; text-decoration: none;">Grand Ephemeris</a> · <a href="https://soundcloud.com/grandephemeris/sets/surface-recursive" title="Surface Recursive" target="_blank" style="color: #cccccc; text-decoration: none;">Surface Recursive</a></div>
 
             {/* <iframe style="border: 0; width: 560px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe> */}
             
