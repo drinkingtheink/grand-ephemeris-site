@@ -60,6 +60,100 @@ class MainStage extends Component {
             </section>
           </article>
 
+          <article className="content-panel surface-recursive" id="surface-recursive"> 
+            <span className="new-release-badge">Latest Release</span>
+
+            <h3>Surface Recursive</h3>
+            
+            <section className="album-info">
+              <span>Released May 2nd, 2025</span>
+            </section>
+            
+            <iframe title="Surface Recursive on SoundCloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1582192588&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            
+            <h4>Bandcamp</h4>
+            <iframe title="Surface Recursive on Bandcamp" width="100%" height="120" frameborder="0" src="https://bandcamp.com/EmbeddedPlayer/album=322058797/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/continuum-swings">Continuum Swings by Grand Ephemeris</a></iframe>
+            
+            <section className="stream">
+              <h4>Stream:</h4>
+              
+              <article className="gallery">
+                <a href="https://open.spotify.com/album/1rnHsuzbqbqILoQPMhqNPO?si=HuACoq6tSKufBnwgSCA3ww" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/continuum-swings" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/continuum-swings" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://www.youtube.com/watch?v=TVceP1xTOMA" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/continuum-swings/1684366704" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://www.amazon.com/music/player/albums/B0C3F3LVHQ" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+                <a href="https://www.iheart.com/artist/grand-ephemeris-30612128/albums/continuum-swings-214334651/" target="_blank" rel="noopener noreferrer">iHeartRadio</a>
+              </article>
+            </section>
+
+            <h4>Video:</h4>
+
+            <p>Pick Your Socket++:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nUyXO-cMNc0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+            <section className="lyrics">
+              <h4>Lyrics:</h4>
+
+              <Accordion 
+                title="Color Math"
+                content={lyrics.cs.cm}
+              />
+              <Accordion 
+                title="Saint Juan from Capistrano (Where Many a Star)"
+                content={lyrics.cs.sj}
+              />
+              <Accordion 
+                title="La Boda de Los Lobos" 
+                content={lyrics.cs.labo}
+              />
+              <Accordion 
+                title="Mare Imbrium"
+                content={lyrics.cs.mi}
+              />
+              <Accordion 
+                title="The Crucibles of Calcasieu"
+                content={lyrics.cs.cc}
+              />
+              <Accordion 
+                title="Protopseudoscientist"
+                content={lyrics.cs.proto}
+              />
+              <Accordion 
+                title="Odd Fauna"
+                content={lyrics.cs.of}
+              />
+              <Accordion 
+                title="A Minor Eddy in the Vaster Gyre"
+                content={lyrics.cs.mevg}
+              />
+            </section>  
+
+            <h4>Musicians:</h4>
+
+            <article className="gallery">
+              <p><strong>Jason M Harrison:</strong> vocals/guitar/beats/keys/synth</p>
+              <p><strong>Jaret Harrison:</strong> bass/guitar</p>
+              <p><strong>Eric Blount:</strong> lead guitar on "Color Math"</p>
+              <p><strong>Jeremy Harmon:</strong> trumpet on "Saint Juan from Capistrano (Where Many a Star)", saxophone and synth on "Odd Fauna"</p>
+              <p><strong>Alex Garcia:</strong> vocals on "La Boda de Los Lobos"</p>
+              <p><strong>Josh Chambers:</strong> lead guitar on "A Minor Eddy in the Vaster Gyre"</p>
+            </article>
+
+            <h4>Production:</h4>
+
+            <article className="gallery">
+              <p><strong>Recorded at:</strong> Pendragon Press - Austin, TX</p>
+              <p><strong>Engineered by:</strong> Jason M Harrison</p>
+            </article>
+
+            <h4>Artwork:</h4>
+            <article className="gallery">
+              <p><strong>Background artwork by:</strong> Jason M Harrison and Midjourney</p>
+            </article>
+          </article>
+
           <article className="content-panel quick-links" id="quick-links">
             <h3>Video for "Mare Imbrium"</h3>
             <section className="album-info">
