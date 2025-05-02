@@ -60,6 +60,15 @@ class MainStage extends Component {
             </section>
           </article>
 
+          <article className="content-panel quick-links" id="quick-links">
+            <h3>Video for "Pick Your Socket++"</h3>
+            <section className="album-info">
+              <span>Released May 1st, 2025</span>
+            </section>
+
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/rzYqMHwgdsk?si=t1KVrwyI0T03_Sqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </article>
+
           <article className="content-panel surface-recursive" id="surface-recursive"> 
             <span className="new-release-badge">Latest Release</span>
 
@@ -71,7 +80,7 @@ class MainStage extends Component {
                         
             <h4>Bandcamp</h4>
 
-            <iframe style="border: 0; width: 560px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe>
+            {/* <iframe style="border: 0; width: 560px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe> */}
             
             <section className="stream">
               <h4>Stream:</h4>
