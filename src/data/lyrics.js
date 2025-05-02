@@ -28,6 +28,11 @@ import of from './odd-fauna';
 import mevg from './eddy';
 
 const lyrics = {
+    sr: {
+        pys,
+        ff,
+        wh,
+    },
     cs: {
         cm,
         sj,
