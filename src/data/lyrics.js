@@ -26,6 +26,7 @@ import cc from './cofc';
 import proto from './proto';
 import of from './odd-fauna';
 import mevg from './eddy';
+import pe from './potential-energy';
 
 const lyrics = {
     sr: {
