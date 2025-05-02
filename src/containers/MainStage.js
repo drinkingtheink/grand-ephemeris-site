@@ -60,15 +60,6 @@ class MainStage extends Component {
             </section>
           </article>
 
-          <article className="content-panel quick-links" id="quick-links">
-            <h3>Video for "Pick Your Socket++"</h3>
-            <section className="album-info">
-              <span>Released May 1st, 2025</span>
-            </section>
-
-            <iframe width="100%" height="450" src="https://www.youtube.com/embed/rzYqMHwgdsk?si=t1KVrwyI0T03_Sqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </article>
-
           <article className="content-panel surface-recursive" id="surface-recursive"> 
             <span className="new-release-badge">Latest Release</span>
 
@@ -78,7 +69,7 @@ class MainStage extends Component {
               <span>Released May 2nd, 2025</span>
             </section>
             
-            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1977748824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/grandephemeris" title="Grand Ephemeris" target="_blank" style="color: #cccccc; text-decoration: none;">Grand Ephemeris</a> · <a href="https://soundcloud.com/grandephemeris/sets/surface-recursive" title="Surface Recursive" target="_blank" style="color: #cccccc; text-decoration: none;">Surface Recursive</a></div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzYqMHwgdsk?si=-6dqStyyR100NuNu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             {/* <iframe style="border: 0; width: 560px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe> */}
             
