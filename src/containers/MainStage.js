@@ -68,6 +68,8 @@ class MainStage extends Component {
             <section className="album-info">
               <span>Released May 2nd, 2025</span>
             </section>
+
+            <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe>
             
             <iframe width="560" height="315" src="https://www.youtube.com/embed/rzYqMHwgdsk?si=-6dqStyyR100NuNu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
