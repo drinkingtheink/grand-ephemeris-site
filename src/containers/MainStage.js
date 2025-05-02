@@ -60,13 +60,52 @@ class MainStage extends Component {
             </section>
           </article>
 
-          <article className="content-panel quick-links" id="quick-links">
-            <h3>Video for "Mare Imbrium"</h3>
+          <article className="content-panel surface-recursive" id="surface-recursive"> 
+            <span className="new-release-badge">Latest Release</span>
+
+            <h3>Surface Recursive</h3>
+            
             <section className="album-info">
-              <span>Released Dec 6th, 2024</span>
+              <span>Released May 2nd, 2025</span>
+            </section>
+                        
+            <h4>Bandcamp</h4>
+            
+            <section className="stream">
+              <h4>Stream:</h4>
+              
+              <article className="gallery">
+                <a href="https://open.spotify.com/album/0JVSrBnC6K6aG3wkrLVCyJ?si=L_KzHfi6Qm-FBRKfoPNAyQ" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://soundcloud.com/grandephemeris/sets/surface-recursive" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+                <a href="https://grandephemeris.bandcamp.com/album/surface-recursive" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+                <a href="https://music.youtube.com/playlist?list=OLAK5uy_kka5mVejFnUT2VSgejor5-MJOth3PTGRQ" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://music.apple.com/us/album/surface-recursive-ep/1808447249" target="_blank" rel="noopener noreferrer">iTunes</a>
+                <a href="https://music.amazon.in/albums/B0F4RQGZ6G" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+              </article>
             </section>
 
-            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/4mAfnAQYW9w?si=hDFt5fayHyBLQybx" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <h4>Musicians:</h4>
+
+            <article className="gallery">
+              <p><strong>Jason M Harrison:</strong> vocals/guitar/beats/keys/synth</p>
+              <p><strong>Jaret Harrison:</strong> bass/vocals</p>
+              <p><strong>Eric Blount:</strong> lead guitar/vocals</p>
+              <p><strong>Gabe Kirchner:</strong> drums</p>
+            </article>
+
+            <h4>Production:</h4>
+
+            <article className="gallery">
+              <p><strong>Recorded at:</strong> Pendragon Press - Austin, TX / Big Echo Studio</p>
+              <p><strong>Engineered by:</strong> Jason M Harrison</p>
+              <p><strong>Engineered by:</strong> Josh Chambers - drums on tracks 1,2,3</p>
+              <p><strong>Engineered by:</strong> Jeremy Harmon - drums on track 4</p>
+            </article>
+
+            <h4>Artwork:</h4>
+            <article className="gallery">
+              <p><strong>Artwork by:</strong>Jaret T Harrison and Jason M Harrison</p>
+            </article>
           </article>
 
           <article className="content-panel quick-links" id="quick-links">
