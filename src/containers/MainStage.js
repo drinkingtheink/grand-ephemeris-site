@@ -79,7 +79,7 @@ class MainStage extends Component {
               <h4>Stream:</h4>
               
               <article className="gallery">
-                <a href="https://open.spotify.com/album/0JVSrBnC6K6aG3wkrLVCyJ?si=L_KzHfi6Qm-FBRKfoPNAyQ" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://open.spotify.com/album/27Dxdved1wrht3QF3MpmqW?si=AnSsmSCfQieHSH60ROiAvw" target="_blank" rel="noopener noreferrer">Spotify</a>
                 <a href="https://soundcloud.com/grandephemeris/sets/surface-recursive" target="_blank" rel="noopener noreferrer">SoundCloud</a>
                 <a href="https://grandephemeris.bandcamp.com/album/surface-recursive" target="_blank" rel="noopener noreferrer">Bandcamp</a>
                 <a href="https://music.youtube.com/playlist?list=OLAK5uy_kka5mVejFnUT2VSgejor5-MJOth3PTGRQ" target="_blank" rel="noopener noreferrer">YouTube</a>
