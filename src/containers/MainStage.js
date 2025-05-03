@@ -110,6 +110,27 @@ class MainStage extends Component {
             <article className="gallery">
               <p><strong>Artwork by:</strong>Jaret T Harrison and Jason M Harrison</p>
             </article>
+
+            <section className="lyrics">
+              <h4>Lyrics:</h4>
+
+              <Accordion 
+                title="Pick Your Socket++"
+                content={lyrics.sr.pys}
+              />
+              <Accordion 
+                title="Force Fields++"
+                content={lyrics.sr.ff}
+              />
+              <Accordion 
+                title="Westport Hymn++" 
+                content={lyrics.sr.wh}
+              />
+              <Accordion 
+                title="Potential Energy++"
+                content={lyrics.sr.pe}
+              />
+            </section>
           </article>
 
           <article className="content-panel quick-links" id="quick-links">
