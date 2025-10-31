@@ -69,7 +69,7 @@ class MainStage extends Component {
               <span>Released Oct 31st, 2025</span>
             </section>
 
-            <iframe width="560" style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3647535352/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/199x">199X by Grand Ephemeris</a></iframe>
+            {/* <iframe width="560" style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3647535352/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/199x">199X by Grand Ephemeris</a></iframe> */}
             
             <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=gSdTWQ-vyaz96GdH&amp;list=PLl-irVTSkiDyynIWQNHn3oR6uvDodI1fW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
