@@ -60,52 +60,6 @@ class MainStage extends Component {
             </section>
           </article>
 
-          <article className="content-panel 199X" id="199X"> 
-            <span className="new-release-badge">Latest Release</span>
-
-            <h3>199X</h3>
-            
-            <section className="album-info">
-              <span>Released Oct 31st, 2025</span>
-            </section>
-
-            <iframe width="560" style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3647535352/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/199x">199X by Grand Ephemeris</a></iframe>
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=gSdTWQ-vyaz96GdH&amp;list=PLl-irVTSkiDyynIWQNHn3oR6uvDodI1fW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            {/* <iframe style="border: 0; width: 560px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655057457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://grandephemeris.bandcamp.com/album/surface-recursive">Surface Recursive by Grand Ephemeris</a></iframe> */}
-            
-            <section className="stream">
-              <h4>Stream:</h4>
-              
-              <article className="gallery">
-                <a href="https://soundcloud.com/grandephemeris/sets/199a1" target="_blank" rel="noopener noreferrer">SoundCloud</a>
-                <a href="https://grandephemeris.bandcamp.com/album/199x" target="_blank" rel="noopener noreferrer">Bandcamp</a>
-                <a href="https://youtube.com/playlist?list=PLl-irVTSkiDyynIWQNHn3oR6uvDodI1fW&si=AU-1vSzFLScBx6_-" target="_blank" rel="noopener noreferrer">YouTube</a>
-              </article>
-            </section>
-
-            <h4>Musicians:</h4>
-
-            <article className="gallery">
-              <p><strong>Jason M Harrison:</strong> vocals/guitar/beats/keys/synth</p>
-              <p><strong>Jaret Harrison:</strong> co-vocals on Track 2</p>
-              <p><strong>Tim Aylsworth:</strong> co-vocals and bass on Track 4</p>
-            </article>
-
-            <h4>Production:</h4>
-
-            <article className="gallery">
-              <p><strong>Recorded at:</strong> Pendragon Press - Austin, TX / Big Echo Studio</p>
-              <p><strong>Engineered by:</strong> Jason M Harrison</p>
-            </article>
-
-            <h4>Artwork:</h4>
-            <article className="gallery">
-              <p><strong>Artwork by:</strong>Jason M Harrison</p>
-            </article>
-          </article>
-
           <article className="content-panel surface-recursive" id="surface-recursive"> 
 
             <h3>Surface Recursive</h3>
