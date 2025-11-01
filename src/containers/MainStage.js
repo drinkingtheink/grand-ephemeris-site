@@ -69,13 +69,11 @@ class MainStage extends Component {
               <span>Released Oct 31st, 2025</span>
             </section>
 
-            <iframe id="199x-yt-witness" width="560" height="315" src="https://youtu.be/eR0WIN28DFs?si=ol22IpnCmpobXfMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eR0WIN28DFs?si=Exh8cdpYYgu-lB6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
-            <iframe id="199x-yt-tbd" width="560" height="315" src="https://youtu.be/eR0WIN28DFs?si=xI4dJKcYRrCEhIXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zSD9ZBRbaGA?si=27oEbxLA2jvxXq-e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <iframe id="199x-yt-cto" width="560" height="315" src="https://youtu.be/PvKoeGIatwc?si=Y6HbMGLLVsYJzqm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            <iframe id="199x-yt-cto" width="560" height="315" src="https://youtu.be/PvKoeGIatwc?si=Y6HbMGLLVsYJzqm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PtQXpnrIEvg?si=vIPVbIys6uJDZ2q5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
             <section className="stream">
               <h4>Stream:</h4>
